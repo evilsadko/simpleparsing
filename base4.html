@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title></title>
+ </head>
+ <body>
+ <div><h3>Версия 1</h3>
+ <button onclick="getSearch()" style="margin: 15px;display:block;">ПОИСК</button>
+ </div>
+     <div id="main"></div>
+     <a class="topbt" id="topbt">вверх</a>
+     <div id="b-popup">
+         <div class="pv_close_btn" onclick="Close(0)" style="display: block;"></div>
+         <div id="b-popup-content">
+         <div id="SeeBox"style="font-family: Roboto,helvetica,arial,sans-serif;"></div>
+         </div>
+     </div>
+     
+<!--     <div class="pv_close_btn" onclick="Close(0)" style="display: block;"></div>-->
+ </body>
+</html>
+
+<script>
+String.prototype.unescapeHtml = function () {
+   var temp = document.createElement("div");
+   temp.innerHTML = this;
+   var result = temp.childNodes[0].nodeValue;
+   temp.removeChild(temp.firstChild);
+   return result;
+}
+Object.size = function(obj) {
+   var size = 0, key;
+   for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+   }
+   return size;
+};
+
+function drawAnsw(x, y) {
+        //console.log(y);
+        data_size = x["data_size"]
+        DIV = document.createElement('div'); 
+        DIV.id = "item"; //y
+        //DIV.setAttribute("onclick", "showContent()");
+        DIV.setAttribute("onclick", "getCont("+y+")");
+        //DIV.innerHTML = '<div onclick="showContent()" class="views-title" style="width: 100%;float: left;">'
+        DV = document.createElement('div'); 
+        DV.id = "row";
+        div_3  = document.createElement('img');
+        div_3.src = "data_info/"+x["image"];
+        
+        div_2 = document.createElement('strong')
+        div_2.innerText = x["model"]
+        
+        div_1 = document.createElement('strong')
+        div_1.innerText = x["brand"]
+        DV.appendChild(div_3); // Image
+        //DV.appendChild(div_1);
+        //DV.appendChild(div_2); 
+        
+        DIV.appendChild(DV);
+        div_main.appendChild(DIV);
+}
+
+var text = '{{items}}';
+var obj = JSON.parse(text.unescapeHtml());
+var size = Object.size(Object.keys(obj));
+var data_size;
+var start = 0;
+var b_popup = document.getElementById('b-popup');
+b_popup.style.display = "none";
+//console.log(size);
+var div_main = document.getElementById("main");
+var range = 0;
+for (let x=0; x<size; x++ ) {
+  drawAnsw(obj[x], range);
+  range += 1;
+  //console.log(obj[x]["model"]);     max-width: 200px; max-height: 200px;
+}
+//var obj;
+//var size;
+function GetData(x){
+  //console.log(x);
+  var http = new XMLHttpRequest();
+  http.open("POST", "http://178.158.131.41:8800/");
+  http.setRequestHeader("Content-type","application/json; charset=utf-8");
+  http.onreadystatechange = function (){
+	if(http.readyState == 4){
+               //console.log(http.responseText);
+               //var obj = JSON.parse(http.responseText);
+               //var size = Object.size(Object.keys(obj));
+               
+               obj_1 = JSON.parse(http.responseText);
+               size = Object.size(Object.keys(obj_1));
+               for (let x=0; x<size; x++ ) {
+                   drawAnsw(obj_1[x], range);
+                   data_size = size
+                   
+                   //start = obj_1[x]['start'];
+                   console.log(obj_1[x]['start'])//, obj_1[x]['start'],size);['data_size']
+                   obj[range] = obj_1[x];
+                   range += 1;
+                   isLoading = false;
+                   
+               }
+               //obj = obj_1;
+        };
+		
+   };
+   start += data_size;
+   http.send(JSON.stringify({"process":"loadMore", "data_size": data_size, "start": start}));
+   
+}
+document.getElementById('SeeBox').style.display = "none";
+var isLoading = false;
+function scroll(){
+    //console.log(window.scrollY++);
+    if(isLoading) return false;
+    var scrollable = document.getElementById("main");
+    //
+    var contentHeight = scrollable.offsetHeight;
+    var yOffset = window.pageYOffset;
+    var y = yOffset + window.innerHeight;
+    
+    if(y >= contentHeight){
+        isLoading = true;
+        GetData(contentHeight);
+        console.log(scrollable.offsetHeight);
+    }
+}
+
+var tob_button = document.getElementById('topbt');
+tob_button.onclick = function(){
+    window.scrollTo(0, 0);
+};
+window.onscroll = scroll;
+
+function searchCont(x, y){
+    console.log(x, y);
+    var http = new XMLHttpRequest();
+    http.open("POST", "http://178.158.131.41:8800/search");
+    http.setRequestHeader("Content-type","application/json; charset=utf-8");
+    http.onreadystatechange = function (){
+          if(http.readyState == 4){
+               obj_1 = JSON.parse(http.responseText);
+               size = Object.size(Object.keys(obj_1));
+               console.log(obj_1, size);
+               div_main.innerHTML = "";
+               obj[range] = "";
+               for (let x=0; x<size; x++ ) {
+                   try {
+                           drawAnsw(obj_1[x], range);
+                           obj[range] = obj_1[x];
+                           range += x;
+                           isLoading = false;
+                       } catch { 
+                           var P = obj_1["info"];
+                           var info = "\n\tМинимальная начальная цена: " + P["min_min"] +
+                                      ";\n\tМинимальная средняя цена: " + P["min_mid"] +
+                                      ";\n\tМинимальная максимальная цена: "  + P["min_max"] +
+                                      ";\n\tМаксимальная начальная цена: " + P["max_min"] +
+                                      ";\n\tМаксимальная средняя цена: " + P["max_mid"] +
+                                      ";\n\tМаксимальная максимальная цена: " + P["max_max"];
+                                      
+                           alert(info);
+                           //console.log(">>>",P); 
+                           }
+                  }
+               }
+    }
+    start = 0;
+    http.send(JSON.stringify({"process":"SearchMore", "data_text": x, "type": y}));
+}
+
+function getSearch() {
+    document.body.style.overflow = 'hidden';
+    b_popup.style.display = "block";
+    //b_popup.style.overflow = "auto";
+    seebox = document.getElementById('SeeBox');
+    seebox.style.display = "block";
+    //seebox.style.overflow = "auto";
+    div_1 = document.createElement('div');
+    div_1.innerHTML = "Поиск";
+    seebox.appendChild(div_1);
+    var http = new XMLHttpRequest();
+    http.open("GET", "http://178.158.131.41:8800/search");
+    http.setRequestHeader("Content-type","application/json; charset=utf-8");
+    http.onreadystatechange = function (){
+    if(http.readyState == 4){
+               obj_1 = JSON.parse(http.responseText);
+               size = Object.size(Object.keys(obj_1));
+               console.log(size);
+               for (let z=0; z<size; z++ ) {
+                   key = Object.keys(obj_1[z]);
+                   S1 = Object.size(obj_1[z]["Models"]);
+                   //console.log(">>>>", S1, key, obj_1[z]["Brand"], obj_1[z]["size"], obj_1[z]["Models"]);
+                   div_1 = document.createElement('div');
+                   div_1.id = "ModelsList";
+                   for (let x=0; x<S1; x++ ) {
+                       temp_size = obj_1[z]["Models"][x]["size"];
+                       temp_size_div = document.createElement('a');
+                       temp_size_div.setAttribute("onclick", 'searchCont("'+obj_1[z]["Models"][x]["model"]+'", "Model")');
+                       //temp_size_div.setAttribute("href", "/");
+                       temp_size_div.innerHTML += obj_1[z]["Models"][x]["model"] + "("+ temp_size +")";
+                       div_1.appendChild(temp_size_div);
+                       //console.log(">>>>", obj_1[z]["Models"][x]);
+                   };
+                   div_2 = document.createElement('div');
+                   div_2.id = "block_search";
+                   div_2.style.margin = "20px";
+                   div_ = document.createElement('a');
+                   div_.id = obj_1[z]["Brand"];
+                   div_.innerHTML = obj_1[z]["Brand"] + "("+ obj_1[z]["size"]+")";//S1;
+                   div_.setAttribute("onclick", 'searchCont("'+obj_1[z]["Brand"]+'", "Brand")');
+                   //div_.setAttribute("href", "/");
+                   div_2.appendChild(div_);
+                   div_2.appendChild(div_1);
+                   seebox.appendChild(div_2);
+                   //seebox.appendChild(div_1);
+               }
+        };
+		
+   };
+   http.send(JSON.stringify({"process":"loadMore", "data_size": data_size, "start": start}));
+   
+}
+function getCont(x) {
+    document.body.style.overflow = 'hidden';
+    b_popup.style.display = "block";
+    seebox = document.getElementById('SeeBox');
+    seebox.style.overflow = "auto";
+    seebox.style.display = "block";
+    //document.getElementById('SeeBox').style.display = "block";
+    //DIV = document.createElement('div'); 
+    //DIV.id = "item"; //y
+    //seebox.appendChild(DIV);
+    div_3 = document.createElement('img');
+    div_3.src = "data_info/"+obj[x]["image"];
+    
+    div_2 = document.createElement('a');
+    div_2.href = obj[x]["link"];
+    div_2.setAttribute('target', '_blank');
+    div_2.text = "ссылка оригинал"//obj[x]["link"];
+    //console.log(obj[x]["price"]);
+    div_1 = document.createElement('div');
+    div_1.id = "Price";
+    div_1.innerHTML = "<strong>Цена $:</strong> " + obj[x]["price"];
+        
+        
+    size = Object.size(Object.keys(obj[x]["info"]));
+    div_ = document.createElement('div');
+    div_.id = "Info";
+    for (let z=0; z<size; z++ ) { 
+        div_s1 = document.createElement('p');
+        div_s1.innerHTML = "<strong>"+Object.keys(obj[x]["info"])[z]+"</strong> : <strong>"+obj[x]["info"][Object.keys(obj[x]["info"])[z]]+"</strong>";
+        div_.appendChild(div_s1);
+        //console.log("Open", Object.keys(obj[x]["info"])[z], obj[x]["info"][Object.keys(obj[x]["info"])[z]]); 
+    };
+    div_.appendChild(div_1);
+    console.log("Open", obj[x]);     
+    seebox.appendChild(div_3);
+    seebox.appendChild(div_2);
+    seebox.appendChild(div_);
+    //seebox.appendChild(div_1);
+    
+    //DIV.setAttribute("onclick", "showContent()");
+    //DIV.setAttribute("onclick", "getCont("+y+")");
+    
+}
+
+function Close(x) {
+  console.log("Close");
+  b_popup.style.display = "none";
+  seebox = document.getElementById('SeeBox');
+  seebox.innerHTML = "";
+  document.body.style.overflow = 'auto';
+  document.getElementById('SeeBox').style.display = "none";
+  //document.location.reload(true);      background-size: cover;
+}
+
+
+<!--.pv_close_btn {-->
+<!--    background-image: url('/pv_layer_controls.png');-->
+<!-- -->
+<!--    width: 50px;-->
+<!--    height: 50px;-->
+<!--    position: fixed;-->
+<!--    top: 12px;-->
+<!--    right: 12px;-->
+<!--    background-position: -3px 0px;-->
+<!--    opacity: 0.5;-->
+<!--    transition: opacity 100ms linear;-->
+<!--    cursor: pointer;float: left-->
+<!--}-->
+</script>
+
+<style>
+#ModelsList {
+    padding: 2px;
+    margin: 0 20px;
+}
+#Price {
+ display: block;
+ position: relative;
+}
+#block_search {
+<!--float: left;-->
+<!--width: 20%;-->
+}
+
+#Info {
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        width: 60%;
+        background: white;
+<!--        text-align: center;-->
+        font-size: 90%;
+}    
+#topbt {
+font-family: Arial,x-locale-body,sans-serif;
+padding:0.80%;
+color:white;
+font-size:140%;
+position:fixed;
+right:1%;
+top:50%;
+border-radius:4px;
+background-color: #bfbfbf;
+cursor: pointer;
+}
+#SeeBox a {
+ display: block;
+ position: relative;
+ text-decoration: underline;
+ 
+<!-- text-align: center; -->
+ cursor: pointer;
+}
+#SeeBox img {
+    width: auto;
+    
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.pv_close_btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+}
+
+<!--#SeeBox {-->
+<!--    font-family: Arial,x-locale-body,sans-serif;-->
+<!--    background: #FFF;-->
+<!--    padding: 20px;-->
+<!--    position: relative;-->
+<!--<!--    overflow: auto;-->-->
+<!--<!--    float: left;-->-->
+<!--    height: auto;-->
+<!--    width: auto;-->
+<!--    border: 1px solid #DFDFDF;-->
+<!--    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);-->
+<!--    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);-->
+<!--    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);-->
+<!--    -webkit-border-radius: 11px;-->
+<!--    -moz-border-radius: 11px;-->
+<!--    border-radius: 11px;-->
+<!--    margin: 10% 10% 10% 10%;-->
+<!--    -->
+<!--}-->
+
+#SeeBox {
+    font-family: Arial;
+    background: #FFF;
+    padding: 20px;
+    position: relative;
+    width: 70%;
+    height: 900px;
+<!--    max-width: 1010px;-->
+<!--    min-width: 300px;-->
+    border: 1px solid #DFDFDF;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin: 0 auto;
+    overflow: scroll;
+
+}
+
+#b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+
+#main {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+#item {
+  float: left;
+  max-width: 200px;
+  position: relative;
+  display: block;
+  margin: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+#row {
+  margin: 0px;
+  display: block;
+  position: relative;
+  float: left;
+  background: #e8e8e8;
+  border: 1px solid #c6c6c6;
+}
+#row img {
+  width: 100%;
+  min-width:200px;  
+  height: 160px;
+  display: block;
+  object-fit: cover;
+  max-width: 200px;
+}
+#row a {
+    display: block;
+    float: left;
+    max-width: 200px;
+    margin: 5px;
+}
+</style>
+
+
