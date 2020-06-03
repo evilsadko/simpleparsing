@@ -8,9 +8,6 @@ sudo pip install tornado <br/>
 sudo pip install opencv-python <br/>
 
 1 "POST", "http://178.158.131.41:8800/ - Загрузка больше картинок json: <br/>
-```json
-{"process":"loadMore", "data_size": "data_size", "start": "start"}
-```
 пример:
 ```json
 {"process":"loadMore", "data_size": 10, "start": 8}
