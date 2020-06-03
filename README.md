@@ -9,7 +9,8 @@ sudo pip install opencv-python <br/>
 
 1 "POST", "http://178.158.131.41:8800/ - Загрузка больше картинок json: <br/>
 {"process":"loadMore", "data_size": data_size, "start": start} <br/>
-пример: {"process":"loadMore", "data_size": 300, "start": 200} <br/>
+пример: 
+```json{"process":"loadMore", "data_size": 300, "start": 200}``` <br/>
 получаем: {"_id":str(post["_id"]), 
           "image":post["Image"],
           "brand":post["Brand"], 
