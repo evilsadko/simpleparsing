@@ -43,5 +43,5 @@ sudo pip install opencv-python <br/>
 ```
 пример: 
 ```json
-{"process":"Search", "data_text": temp_x, "type": temp_y} <br/>
+{"process":"Search", "data_text": temp_x, "type": temp_y}
 ```
