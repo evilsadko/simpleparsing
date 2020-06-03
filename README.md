@@ -8,14 +8,24 @@ sudo pip install tornado <br/>
 sudo pip install opencv-python <br/>
 
 1 "POST", "http://178.158.131.41:8800/ - Загрузка больше картинок json: <br/>
-пример: 
 ```json
 {"process":"loadMore", "data_size": data_size, "start": start}
-{"process":"loadMore", "data_size": 300, "start": 200}
 ```
-получаем: 
+пример:
 ```json
-         {"_id":str(post["_id"]), 
+{"process":"loadMore", "data_size": 10, "start": 8}
+
+         {
+          1:{"_id":str(post["_id"]), 
+          "image":post["Image"],
+          "brand":post["Brand"], 
+          "model":post["Model"],
+          "price":post["Price"], 
+          "link":post["link"],
+          "info": post["Info"], 
+          "data_size":len(posts),
+          "start":data_json['start']},
+          2:{"_id":str(post["_id"]), 
           "image":post["Image"],
           "brand":post["Brand"], 
           "model":post["Model"],
@@ -24,6 +34,7 @@ sudo pip install opencv-python <br/>
           "info": post["Info"], 
           "data_size":len(posts),
           "start":data_json['start']}
+         }
 ```
 
 2 "POST", "http://178.158.131.41:8800/search" - <br/>
