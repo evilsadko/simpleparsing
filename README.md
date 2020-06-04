@@ -18,7 +18,7 @@ sudo pip install opencv-python <br/>
         }
 ```
 
-2 "POST", http://178.158.131.41:8800/search - Сортировка лотов<br/>
+2 "POST", http://178.158.131.41:8800/search - Сортировка лотов <br/>
 пример: 
 ```json
 {"process":"SearchMore","data_text":"Chanel","type":"Brand"} "Brand/Model"
@@ -41,3 +41,11 @@ sudo pip install opencv-python <br/>
          "1": {"_id": "5ebda942b2c79a1115edc302", "image": "antiquorum/Chanel/1_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}
         }
 ```
+Пример запроса для вывода лотов Rolex:
+"POST", http://178.158.131.41:8800/search
+```json
+{"process":"SearchMore","data_text":"Rolex","type":"Brand"} 
+```
+100 лотов бренда Rolex
+для показа еще 100 лотов Rolex
+"POST", http://178.158.131.41:8800/
