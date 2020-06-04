@@ -7,7 +7,7 @@ sudo pip install pymongo <br/>
 sudo pip install tornado <br/>
 sudo pip install opencv-python <br/>
 
-1 "POST", http://178.158.131.41:8800/ - Загрузка больше картинок json: <br/>
+1 "POST", http://178.158.131.41:8800/ - Загрузка больше лотов<br/>
 пример:
 ```json
 {"process":"loadMore","data_size":100,"start":300}
@@ -18,7 +18,7 @@ sudo pip install opencv-python <br/>
         }
 ```
 
-2 "POST", http://178.158.131.41:8800/search - <br/>
+2 "POST", http://178.158.131.41:8800/search - Сортировка лотов<br/>
 пример: 
 ```json
 {"process":"SearchMore","data_text":"Chanel","type":"Brand"} "Brand/Model"
@@ -28,12 +28,12 @@ sudo pip install opencv-python <br/>
          "1": {"_id": "5ebda942b2c79a1115edc302", "image": "antiquorum/Chanel/1_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}
         }
 ```
-3 "GET", http://178.158.131.41:8800/search - <br/>
+3 "GET", http://178.158.131.41:8800/search - Список брендов, моделей<br/>
 пример: 
 ```json
 [{"_id": "5ebda9bfb2c79a132bc8c72e", "Brand": "Chanel", "size": 31, "Models": [{"size": 2, "model": "J12"}, {"size": 2, "model": "Premi\u00e8re"}]}]
 ```
-4 "GET", http://178.158.131.41:8800 - <br/>
+4 "GET", http://178.158.131.41:8800 - Список лотов без сортировки<br/>
 пример: 
 ```json
         {
