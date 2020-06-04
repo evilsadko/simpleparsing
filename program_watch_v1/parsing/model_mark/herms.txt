@@ -1,0 +1,5 @@
+Cape Cod;cape-cod;1810;https://www.chrono24.com.ru/herms/cape-cod--mod1810.htm;
+Heure H;heure-h;1812;https://www.chrono24.com.ru/herms/heure-h--mod1812.htm;
+Arceau;arceau;1809;https://www.chrono24.com.ru/herms/arceau--mod1809.htm;
+Clipper;clipper;1811;https://www.chrono24.com.ru/herms/clipper--mod1811.htm;
+Kelly;kelly;1813;https://www.chrono24.com.ru/herms/kelly--mod1813.htm;

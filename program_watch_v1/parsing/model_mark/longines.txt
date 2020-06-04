@@ -1,0 +1,13 @@
+Conquest;conquest;219;https://www.chrono24.com.ru/longines/conquest--mod219.htm;
+HydroConquest;hydroconquest;221;https://www.chrono24.com.ru/longines/hydroconquest--mod221.htm;
+Master Collection;master-collection;217;https://www.chrono24.com.ru/longines/master-collection--mod217.htm;
+DolceVita;dolcevita;220;https://www.chrono24.com.ru/longines/dolcevita--mod220.htm;
+Conquest Classic;conquest-classic;1088;https://www.chrono24.com.ru/longines/conquest-classic--mod1088.htm;
+PrimaLuna;primaluna;218;https://www.chrono24.com.ru/longines/primaluna--mod218.htm;
+Elegant;elegant;1089;https://www.chrono24.com.ru/longines/elegant--mod1089.htm;
+Evidenza;evidenza;213;https://www.chrono24.com.ru/longines/evidenza--mod213.htm;
+Flagship;flagship;537;https://www.chrono24.com.ru/longines/flagship--mod537.htm;
+Heritage;heritage;454;https://www.chrono24.com.ru/longines/heritage--mod454.htm;
+La Grande Classique;la-grande-classique;896;https://www.chrono24.com.ru/longines/la-grande-classique--mod896.htm;
+Présence;presence;2612;https://www.chrono24.com.ru/longines/presence--mod2612.htm;
+Saint-Imier;saint-imier;761;https://www.chrono24.com.ru/longines/saint-imier--mod761.htm;

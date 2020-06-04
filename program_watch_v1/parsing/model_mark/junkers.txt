@@ -1,0 +1,5 @@
+Bauhaus;bauhaus;2344;https://www.chrono24.com.ru/junkers/bauhaus--mod2344.htm;
+G38;g38;2351;https://www.chrono24.com.ru/junkers/g38--mod2351.htm;
+Iron Annie Ju 52;iron-annie-ju-52;2352;https://www.chrono24.com.ru/junkers/iron-annie-ju-52--mod2352.htm;
+Hugo Junkers;hugo-junkers;2346;https://www.chrono24.com.ru/junkers/hugo-junkers--mod2346.htm;
+Cockpit Ju 52;cockpit-ju-52;2348;https://www.chrono24.com.ru/junkers/cockpit-ju-52--mod2348.htm;

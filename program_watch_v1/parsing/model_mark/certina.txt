@@ -1,0 +1,7 @@
+DS Action;ds-action;652;https://www.chrono24.com.ru/certina/ds-action--mod652.htm;
+DS Podium;ds-podium;2085;https://www.chrono24.com.ru/certina/ds-podium--mod2085.htm;
+DS-1;ds-1;2078;https://www.chrono24.com.ru/certina/ds-1--mod2078.htm;
+DS-2;ds-2;2079;https://www.chrono24.com.ru/certina/ds-2--mod2079.htm;
+DS First;ds-first;2083;https://www.chrono24.com.ru/certina/ds-first--mod2083.htm;
+DS Caimano;ds-caimano;651;https://www.chrono24.com.ru/certina/ds-caimano--mod651.htm;
+DS Sport;ds-sport;2089;https://www.chrono24.com.ru/certina/ds-sport--mod2089.htm;

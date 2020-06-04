@@ -1,0 +1,5 @@
+Gentleman;gentleman;1949;https://www.chrono24.com.ru/paulpicot/gentleman--mod1949.htm;
+Firshire;firshire;1947;https://www.chrono24.com.ru/paulpicot/firshire--mod1947.htm;
+C-Type;c-type;1948;https://www.chrono24.com.ru/paulpicot/c-type--mod1948.htm;
+Atelier;atelier;1946;https://www.chrono24.com.ru/paulpicot/atelier--mod1946.htm;
+Technograph;technograph;1950;https://www.chrono24.com.ru/paulpicot/technograph--mod1950.htm;

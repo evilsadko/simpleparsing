@@ -1,0 +1,9 @@
+Khaki;khaki;806;https://www.chrono24.com.ru/hamilton/khaki--mod806.htm;
+Jazzmaster;jazzmaster;819;https://www.chrono24.com.ru/hamilton/jazzmaster--mod819.htm;
+Intra-Matic;intra-matic;833;https://www.chrono24.com.ru/hamilton/intra-matic--mod833.htm;
+Ventura;ventura;830;https://www.chrono24.com.ru/hamilton/ventura--mod830.htm;
+Broadway;broadway;2459;https://www.chrono24.com.ru/hamilton/broadway--mod2459.htm;
+Valiant;valiant;834;https://www.chrono24.com.ru/hamilton/valiant--mod834.htm;
+Khaki Navy;khaki-navy;808;https://www.chrono24.com.ru/hamilton/khaki-navy--mod808.htm;
+Khaki Aviation;khaki-aviation;813;https://www.chrono24.com.ru/hamilton/khaki-aviation--mod813.htm;
+Khaki Field;khaki-field;817;https://www.chrono24.com.ru/hamilton/khaki-field--mod817.htm;

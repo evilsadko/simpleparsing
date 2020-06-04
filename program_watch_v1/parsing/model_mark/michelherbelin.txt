@@ -1,0 +1,4 @@
+Newport;newport;768;https://www.chrono24.com.ru/michelherbelin/newport--mod768.htm;
+Classic;classic;773;https://www.chrono24.com.ru/michelherbelin/classic--mod773.htm;
+Antarès;antares;772;https://www.chrono24.com.ru/michelherbelin/antares--mod772.htm;
+Kharga;kharga;771;https://www.chrono24.com.ru/michelherbelin/kharga--mod771.htm;

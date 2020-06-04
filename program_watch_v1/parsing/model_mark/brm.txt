@@ -1,0 +1,4 @@
+V12-44;v12-44;1846;https://www.chrono24.com.ru/brm/v12-44--mod1846.htm;
+V6-44;v6-44;1847;https://www.chrono24.com.ru/brm/v6-44--mod1847.htm;
+V8-44;v8-44;1848;https://www.chrono24.com.ru/brm/v8-44--mod1848.htm;
+BiRotor;birotor;2283;https://www.chrono24.com.ru/brm/birotor--mod2283.htm;

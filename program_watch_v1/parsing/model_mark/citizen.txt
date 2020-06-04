@@ -1,0 +1,6 @@
+Eco-Drive One;eco-drive-one;2930;https://www.chrono24.com.ru/citizen/eco-drive-one--mod2930.htm;
+Promaster;promaster;2924;https://www.chrono24.com.ru/citizen/promaster--mod2924.htm;
+Promaster Marine;promaster-marine;2926;https://www.chrono24.com.ru/citizen/promaster-marine--mod2926.htm;
+Promaster Sky;promaster-sky;2927;https://www.chrono24.com.ru/citizen/promaster-sky--mod2927.htm;
+Promaster Land;promaster-land;2928;https://www.chrono24.com.ru/citizen/promaster-land--mod2928.htm;
+Stiletto;stiletto;2929;https://www.chrono24.com.ru/citizen/stiletto--mod2929.htm;

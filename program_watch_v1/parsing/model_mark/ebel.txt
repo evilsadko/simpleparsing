@@ -1,0 +1,6 @@
+1911;1911;234;https://www.chrono24.com.ru/ebel/1911--mod234.htm;
+Classic;classic;236;https://www.chrono24.com.ru/ebel/classic--mod236.htm;
+Wave;wave;1267;https://www.chrono24.com.ru/ebel/wave--mod1267.htm;
+Sportwave;sportwave;1276;https://www.chrono24.com.ru/ebel/sportwave--mod1276.htm;
+Beluga;beluga;235;https://www.chrono24.com.ru/ebel/beluga--mod235.htm;
+Brasilia;brasilia;233;https://www.chrono24.com.ru/ebel/brasilia--mod233.htm;

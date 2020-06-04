@@ -1,0 +1,8 @@
+max bill;max-bill;1282;https://www.chrono24.com.ru/junghans/max-bill--mod1282.htm;
+Meister;meister;1299;https://www.chrono24.com.ru/junghans/meister--mod1299.htm;
+Force Mega Solar;force-mega-solar;1301;https://www.chrono24.com.ru/junghans/force-mega-solar--mod1301.htm;
+Meister Pilot;meister-pilot;2479;https://www.chrono24.com.ru/junghans/meister-pilot--mod2479.htm;
+FORM;form;2607;https://www.chrono24.com.ru/junghans/form--mod2607.htm;
+Meister Driver;meister-driver;2621;https://www.chrono24.com.ru/junghans/meister-driver--mod2621.htm;
+Meister MEGA;meister-mega;2912;https://www.chrono24.com.ru/junghans/meister-mega--mod2912.htm;
+max bill MEGA;max-bill-mega;2913;https://www.chrono24.com.ru/junghans/max-bill-mega--mod2913.htm;

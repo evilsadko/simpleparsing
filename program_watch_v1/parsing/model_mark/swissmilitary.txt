@@ -1,0 +1,5 @@
+Hanowa Flagship;hanowa-flagship;2364;https://www.chrono24.com.ru/swissmilitary/hanowa-flagship--mod2364.htm;
+Hanowa Swiss Soldier Prime;hanowa-swiss-soldier-prime;2366;https://www.chrono24.com.ru/swissmilitary/hanowa-swiss-soldier-prime--mod2366.htm;
+Hanowa Arrow;hanowa-arrow;2363;https://www.chrono24.com.ru/swissmilitary/hanowa-arrow--mod2363.htm;
+Hanowa Airborne;hanowa-airborne;2365;https://www.chrono24.com.ru/swissmilitary/hanowa-airborne--mod2365.htm;
+Hanowa Navalus Chrono;hanowa-navalus-chrono;2367;https://www.chrono24.com.ru/swissmilitary/hanowa-navalus-chrono--mod2367.htm;

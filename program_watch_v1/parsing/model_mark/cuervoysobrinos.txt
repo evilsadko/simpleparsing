@@ -1,0 +1,5 @@
+Historiador;historiador;2116;https://www.chrono24.com.ru/cuervoysobrinos/historiador--mod2116.htm;
+Espléndidos;esplendidos;2117;https://www.chrono24.com.ru/cuervoysobrinos/esplendidos--mod2117.htm;
+Torpedo;torpedo;2120;https://www.chrono24.com.ru/cuervoysobrinos/torpedo--mod2120.htm;
+Robusto;robusto;2119;https://www.chrono24.com.ru/cuervoysobrinos/robusto--mod2119.htm;
+Prominente;prominente;2118;https://www.chrono24.com.ru/cuervoysobrinos/prominente--mod2118.htm;

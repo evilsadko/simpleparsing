@@ -1,0 +1,10 @@
+Carrera;carrera;153;https://www.chrono24.com.ru/tagheuer/carrera--mod153.htm;
+Aquaracer;aquaracer;149;https://www.chrono24.com.ru/tagheuer/aquaracer--mod149.htm;
+Formula 1;formula-1;151;https://www.chrono24.com.ru/tagheuer/formula-1--mod151.htm;
+Monaco;monaco;158;https://www.chrono24.com.ru/tagheuer/monaco--mod158.htm;
+Link;link;156;https://www.chrono24.com.ru/tagheuer/link--mod156.htm;
+Connected;connected;2243;https://www.chrono24.com.ru/tagheuer/connected--mod2243.htm;
+Aquaracer Lady;aquaracer-lady;150;https://www.chrono24.com.ru/tagheuer/aquaracer-lady--mod150.htm;
+Autavia;autavia;1045;https://www.chrono24.com.ru/tagheuer/autavia--mod1045.htm;
+Carrera Lady;carrera-lady;154;https://www.chrono24.com.ru/tagheuer/carrera-lady--mod154.htm;
+Monza;monza;1044;https://www.chrono24.com.ru/tagheuer/monza--mod1044.htm;

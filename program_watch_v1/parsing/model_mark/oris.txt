@@ -1,0 +1,11 @@
+Aquis;aquis;702;https://www.chrono24.com.ru/oris/aquis--mod702.htm;
+Big Crown;big-crown;547;https://www.chrono24.com.ru/oris/big-crown--mod547.htm;
+Artelier;artelier;701;https://www.chrono24.com.ru/oris/artelier--mod701.htm;
+Artix;artix;549;https://www.chrono24.com.ru/oris/artix--mod549.htm;
+Williams F1;williams-f1;546;https://www.chrono24.com.ru/oris/williams-f1--mod546.htm;
+TT1;tt1;548;https://www.chrono24.com.ru/oris/tt1--mod548.htm;
+BC4;bc4;545;https://www.chrono24.com.ru/oris/bc4--mod545.htm;
+Aquis Date;aquis-date;1224;https://www.chrono24.com.ru/oris/aquis-date--mod1224.htm;
+Big Crown Pointer Date;big-crown-pointer-date;1239;https://www.chrono24.com.ru/oris/big-crown-pointer-date--mod1239.htm;
+Classic;classic;552;https://www.chrono24.com.ru/oris/classic--mod552.htm;
+Divers;divers;550;https://www.chrono24.com.ru/oris/divers--mod550.htm;

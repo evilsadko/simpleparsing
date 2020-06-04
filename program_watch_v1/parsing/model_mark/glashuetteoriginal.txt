@@ -1,0 +1,7 @@
+Senator;senator;240;https://www.chrono24.com.ru/glashuetteoriginal/senator--mod240.htm;
+PanoMatic;panomatic;1894;https://www.chrono24.com.ru/glashuetteoriginal/panomatic--mod1894.htm;
+PanoMaticLunar;panomaticlunar;323;https://www.chrono24.com.ru/glashuetteoriginal/panomaticlunar--mod323.htm;
+PanoReserve;panoreserve;325;https://www.chrono24.com.ru/glashuetteoriginal/panoreserve--mod325.htm;
+Senator Karrée;senator-karree;224;https://www.chrono24.com.ru/glashuetteoriginal/senator-karree--mod224.htm;
+Senator Panorama Date Moon Phase;senator-panorama-date-moon-phase;332;https://www.chrono24.com.ru/glashuetteoriginal/senator-panorama-date-moon-phase--mod332.htm;
+Senator Perpetual Calendar;senator-perpetual-calendar;329;https://www.chrono24.com.ru/glashuetteoriginal/senator-perpetual-calendar--mod329.htm;

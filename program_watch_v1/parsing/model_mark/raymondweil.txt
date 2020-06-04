@@ -1,0 +1,7 @@
+Freelancer;freelancer;530;https://www.chrono24.com.ru/raymondweil/freelancer--mod530.htm;
+Parsifal;parsifal;527;https://www.chrono24.com.ru/raymondweil/parsifal--mod527.htm;
+Tango;tango;526;https://www.chrono24.com.ru/raymondweil/tango--mod526.htm;
+Maestro;maestro;535;https://www.chrono24.com.ru/raymondweil/maestro--mod535.htm;
+Nabucco;nabucco;528;https://www.chrono24.com.ru/raymondweil/nabucco--mod528.htm;
+Toccata;toccata;1406;https://www.chrono24.com.ru/raymondweil/toccata--mod1406.htm;
+Jasmine;jasmine;717;https://www.chrono24.com.ru/raymondweil/jasmine--mod717.htm;

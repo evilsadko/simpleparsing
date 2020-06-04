@@ -1,0 +1,8 @@
+Mille Miglia;mille-miglia;247;https://www.chrono24.com.ru/chopard/mille-miglia--mod247.htm;
+Happy Sport;happy-sport;302;https://www.chrono24.com.ru/chopard/happy-sport--mod302.htm;
+Imperiale;imperiale;303;https://www.chrono24.com.ru/chopard/imperiale--mod303.htm;
+Happy Diamonds;happy-diamonds;306;https://www.chrono24.com.ru/chopard/happy-diamonds--mod306.htm;
+Classic;classic;1163;https://www.chrono24.com.ru/chopard/classic--mod1163.htm;
+Ice Cube;ice-cube;786;https://www.chrono24.com.ru/chopard/ice-cube--mod786.htm;
+La Strada;la-strada;304;https://www.chrono24.com.ru/chopard/la-strada--mod304.htm;
+St. Moritz;st-moritz;785;https://www.chrono24.com.ru/chopard/st-moritz--mod785.htm;

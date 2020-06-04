@@ -1,0 +1,8 @@
+Bison;bison;1497;https://www.chrono24.com.ru/ingersoll/bison--mod1497.htm;
+Lawrence;lawrence;1494;https://www.chrono24.com.ru/ingersoll/lawrence--mod1494.htm;
+Richmond;richmond;1479;https://www.chrono24.com.ru/ingersoll/richmond--mod1479.htm;
+Houston;houston;1484;https://www.chrono24.com.ru/ingersoll/houston--mod1484.htm;
+Montgomery;montgomery;1481;https://www.chrono24.com.ru/ingersoll/montgomery--mod1481.htm;
+Gandhi;gandhi;1483;https://www.chrono24.com.ru/ingersoll/gandhi--mod1483.htm;
+Las Vegas;las-vegas;1480;https://www.chrono24.com.ru/ingersoll/las-vegas--mod1480.htm;
+San Bernardino;san-bernardino;1482;https://www.chrono24.com.ru/ingersoll/san-bernardino--mod1482.htm;

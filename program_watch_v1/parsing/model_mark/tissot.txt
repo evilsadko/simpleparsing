@@ -1,0 +1,7 @@
+Heritage;heritage;2383;https://www.chrono24.com.ru/tissot/heritage--mod2383.htm;
+T-Sport;t-sport;2387;https://www.chrono24.com.ru/tissot/t-sport--mod2387.htm;
+T-Classic;t-classic;2380;https://www.chrono24.com.ru/tissot/t-classic--mod2380.htm;
+Touch;touch;2385;https://www.chrono24.com.ru/tissot/touch--mod2385.htm;
+PRC 200;prc-200;1102;https://www.chrono24.com.ru/tissot/prc-200--mod1102.htm;
+Le Locle;le-locle;478;https://www.chrono24.com.ru/tissot/le-locle--mod478.htm;
+PR 100;pr-100;484;https://www.chrono24.com.ru/tissot/pr-100--mod484.htm;

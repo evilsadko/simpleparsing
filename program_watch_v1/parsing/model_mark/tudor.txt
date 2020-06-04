@@ -1,0 +1,10 @@
+Black Bay;black-bay;605;https://www.chrono24.com.ru/tudor/black-bay--mod605.htm;
+Submariner;submariner;838;https://www.chrono24.com.ru/tudor/submariner--mod838.htm;
+Pelagos;pelagos;642;https://www.chrono24.com.ru/tudor/pelagos--mod642.htm;
+Fastrider;fastrider;640;https://www.chrono24.com.ru/tudor/fastrider--mod640.htm;
+Grantour;grantour;205;https://www.chrono24.com.ru/tudor/grantour--mod205.htm;
+Classic;classic;1437;https://www.chrono24.com.ru/tudor/classic--mod1437.htm;
+Fastrider Black Shield;fastrider-black-shield;1424;https://www.chrono24.com.ru/tudor/fastrider-black-shield--mod1424.htm;
+Heritage Chrono;heritage-chrono;206;https://www.chrono24.com.ru/tudor/heritage-chrono--mod206.htm;
+Heritage Ranger;heritage-ranger;1426;https://www.chrono24.com.ru/tudor/heritage-ranger--mod1426.htm;
+North Flag;north-flag;1422;https://www.chrono24.com.ru/tudor/north-flag--mod1422.htm;

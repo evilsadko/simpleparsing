@@ -1,0 +1,4 @@
+Military;military;2036;https://www.chrono24.com.ru/tutima/military--mod2036.htm;
+Grand Classic;grand-classic;2037;https://www.chrono24.com.ru/tutima/grand-classic--mod2037.htm;
+Saxon One;saxon-one;2035;https://www.chrono24.com.ru/tutima/saxon-one--mod2035.htm;
+Pacific;pacific;2038;https://www.chrono24.com.ru/tutima/pacific--mod2038.htm;
