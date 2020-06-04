@@ -15,9 +15,7 @@ sudo pip install opencv-python <br/>
          {
          "0": {"_id": "5ebda92ab2c79a1115edb9c5", "image": "antiquorum/Ulysse Nardin/3_3_medium_219.jpg", "brand": "Ulysse Nardin", "model": "El Toro Perpetual Calendar", "price": [15000, 25000], "link": "https://catalog.antiquorum.swiss/en/lots/ulysse-nardin-ref-320-00-el-toro-perpetual-calendar-lot-317-219?browse_all=1&page=3&q=Ulysse+Nardin", "info": {"Brand": "Ulysse Nardin", "Model": "El Toro Perpetual Calendar", "Reference": "Ref 320-00", "Year": "Circa 2012", "Bracelet": "Leather with an 18k white gold Ulysse Nardin double deployant clasp", "Numbers": "Case N 499/500", "Caliber": "UN 032", "Dimensions": "43 mm", "Signature": "Dial", "Accessories": "International warranty card"}, "data_size": 100, "start": 300}, 
          "1": {"_id": "5ebda92ab2c79a1115edb9c6", "image": "antiquorum/Ulysse Nardin/2_4_medium_240.jpg", "brand": "Ulysse Nardin", "model": "Freak", "price": [20400, 33150], "link": "https://catalog.antiquorum.swiss/en/lots/ulysse-nardin-ref-016-88-freak-lot-323-240?browse_all=1&page=2&q=Ulysse+Nardin", "info": {"Brand": "Ulysse Nardin", "Model": "Freak", "Reference": "016-88", "Year": "Circa 2000-2002", "Movement No": "014", "Calibre ": "UN 200", "Bracelet": "Navy-blue leather UN strap", "Diameter": "43 mm", "Signature": "Dial", "Accessories": "Box and papers "}, "data_size": 100, "start": 300},
-...,
-...,
-}
+         }
 ```
 
 2 "POST", "http://178.158.131.41:8800/search" - <br/>
