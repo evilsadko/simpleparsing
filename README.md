@@ -9,7 +9,16 @@ sudo pip install opencv-python <br/>
 
 sudo systemctl start mongod <br/>
 
-1 "POST", http://178.158.131.41:8800/ - Загрузка больше лотов<br/>
+1 "GET", http://178.158.131.41:8800 - Список лотов без сортировки<br/>
+пример: 
+```json
+        {
+         "0": {"_id": "5ebda942b2c79a1115edc2f8", "image": "antiquorum/Chanel/0_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}, 
+         "1": {"_id": "5ebda942b2c79a1115edc302", "image": "antiquorum/Chanel/1_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}
+        }
+```
+
+2 "POST", http://178.158.131.41:8800/ - Загрузка больше лотов<br/>
 пример:
 ```json
 {"process":"loadMore", "data_size": 100, "start": 300, "type": None,"data_text": None }
@@ -20,24 +29,17 @@ sudo systemctl start mongod <br/>
         }
 ```
 
-2 "POST", http://178.158.131.41:8800/search - Сортировка лотов <br/>
-пример: 
-```json
-{"process":"SearchMore","data_text":"Chanel","type":"Brand"} "Brand/Model"
-
-        {
-         "0": {"_id": "5ebda942b2c79a1115edc2f8", "image": "antiquorum/Chanel/0_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}, 
-         "1": {"_id": "5ebda942b2c79a1115edc302", "image": "antiquorum/Chanel/1_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}
-        }
-```
 3 "GET", http://178.158.131.41:8800/search - Список брендов, моделей<br/>
 пример: 
 ```json
 [{"_id": "5ebda9bfb2c79a132bc8c72e", "Brand": "Chanel", "size": 31, "Models": [{"size": 2, "model": "J12"}, {"size": 2, "model": "Premi\u00e8re"}]}]
 ```
-4 "GET", http://178.158.131.41:8800 - Список лотов без сортировки<br/>
+
+4 "POST", http://178.158.131.41:8800/search - Сортировка лотов <br/>
 пример: 
 ```json
+{"process":"SearchMore","data_text":"Chanel","type":"Brand"} "Brand/Model"
+
         {
          "0": {"_id": "5ebda942b2c79a1115edc2f8", "image": "antiquorum/Chanel/0_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}, 
          "1": {"_id": "5ebda942b2c79a1115edc302", "image": "antiquorum/Chanel/1_12_medium_101.jpg", "brand": "Chanel", "model": "J12", "price": [1500, 2500], "link": "https://catalog.antiquorum.swiss/en/lots/chanel-ref-h1007-j12-lot-313-101?browse_all=1&page=1&q=Chanel", "info": {"Brand": "Chanel", "Model": "J12", "Reference": "Ref H1007", "Year": "Circa 2010", "Bracelet": "Ceramic Chanel bracelet with double deployant clasp", "Numbers": "Case N 76233", "Caliber": "2894-2", "Dimensions": "42 mm", "Signature": "Dial"}, "data_size": 31, "posts_count": 31}
