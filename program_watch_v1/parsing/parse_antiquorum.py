@@ -72,6 +72,7 @@ def TT():
                 #print (sess)
                 soup = BeautifulSoup(sess)
                 J = soup.find_all('div', {"class": "shadow mt-4"})
+                HJ = soup.find_all('div', {"class": "row"})
                 if len(J) != 0:
                    for ix, link in enumerate(J):
                             time.sleep(1)
@@ -98,8 +99,14 @@ def TT():
                                info_solid = link.find_all("h4")
                             except AttributeError: 
                                info_solid = None                               
-                               #N_lots_price mt-0
-                            #
+                            try:
+                               lot_sold = HJ[ix].find("div", {"class": "N_lots_price mt-0"})
+                               lot_sold = lot_sold.find("p").text.replace(",", "").replace(":", "").replace("\n","").replace("\t","")#\n\t\t\t\t\t\t
+                               lot_sold = lot_sold.split(" ")
+                            except AttributeError:  
+                               lot_sold = None
+                            except IndexError:
+                               lot_sold = None 
                             
                             try:
                                new = link.find('div', {"class": "N_lots_description col"}).find('span')['content']
@@ -112,7 +119,7 @@ def TT():
                                G.write("{}\n{}\n{}\n".format(href, img_link, new))
                                G.write("{}\n".format(info_model)) 
                                G.write("{}\n".format(info_solid))
-                               
+                               G.write("{}\n".format(lot_sold))
                                G.write("{}\n".format(info_lot))
                                G.write("{}\n".format(price_link))
                                G.close()
