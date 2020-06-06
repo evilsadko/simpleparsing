@@ -22,7 +22,7 @@ class DataBase(object):
          self.db = self.client["watch_t2"] 
          self.n ="collection"
          self.u ="user"
-         self.z = None
+         #self.z = None
          
      def user_add(self, post):
          u ="user"
@@ -77,14 +77,14 @@ class DataBase(object):
      def see_all_post_v1(self, x, y):
          return list(self.db[self.n].find().skip(x).limit(y))
          #return list(self.db[self.n].find().skip(40).limit(40))
-     def funcPrep(self, x):
-         self.z=x
+     #def funcPrep(self, x):
+     #   self.z=x
          
-     def see_all_post_v2(self, x, y):
-         if self.z == None:
+     def see_all_post_v2(self, x, y, z):
+         if z == None:
             return list(self.db[self.n].find().skip(x).limit(y))
          else:
-            return list(self.db[self.n].find(self.z).skip(x).limit(y))
+            return list(self.db[self.n].find(z).skip(x).limit(y))
          
      def find_many_post(self, idx):
          #print (idx, self.n)
@@ -166,7 +166,6 @@ if __name__ == "__main__":
 #for creator in creator_list:
 #    my_filter_qs = my_filter_qs | Q(creator=creator)
 #my_model.objects.filter(my_filter_qs)
-
 
 
 
