@@ -7,6 +7,8 @@ sudo pip install pymongo <br/>
 sudo pip install tornado <br/>
 sudo pip install opencv-python <br/>
 
+sudo systemctl start mongod <br/>
+
 1 "POST", http://178.158.131.41:8800/ - Загрузка больше лотов<br/>
 пример:
 ```json
