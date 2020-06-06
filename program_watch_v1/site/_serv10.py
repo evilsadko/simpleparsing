@@ -82,9 +82,9 @@ class MainHandler(BaseHandler):
         dbclass.create_collection("Watch")
         #posts = self.dbclass.see_all_post()
         posts_count = dbclass.count()
-        dbclass.funcPrep(None)
+        #dbclass.funcPrep(None)
         
-        posts = dbclass.see_all_post_v2(0, 100)#(150, 150)
+        posts = dbclass.see_all_post_v2(0, 100, None)#(150, 150)
         #print (len(posts))
         #posts = dbclass.see_all_post_v2(150, 150)
         dc = {}
@@ -103,9 +103,14 @@ class MainHandler(BaseHandler):
         #self.render("item.html", title="Анализ данных", items=posts)
     def post(self):
         data_json = json.loads(self.request.body) 
+        #if data_json['type']:data_json['data_text']
+        print (data_json['type'])#({data_json['type']:data_json['data_text']})
         #print (">>>>",data_json)#['start'])#['data_size']
-        #posts = dbclass.see_all_post_v2(data_json["start"], data_json["data_size"])
-        posts = dbclass.see_all_post_v2(data_json['start'], data_json["data_size"])
+        if data_json['type'] != "None":
+            posts = dbclass.see_all_post_v2(data_json["start"], data_json["data_size"],
+                                            {data_json['type']:data_json['data_text']})
+        else:
+            posts = dbclass.see_all_post_v2(data_json['start'], data_json["data_size"], None)
         #posts_count = dbclass.count1({data_json['type']:data_json['data_text']})
         #print (posts_count)#self.posts_count
         dc = {}
@@ -133,8 +138,8 @@ class SearchHandler(BaseHandler):
         dbclass.create_collection("Watch")
         #posts = dbclass.find_many_post({data_json['type']:data_json['data_text']})
         posts_count = dbclass.count1({data_json['type']:data_json['data_text']})
-        dbclass.funcPrep({data_json['type']:data_json['data_text']})
-        posts = dbclass.see_all_post_v2(0, 100)
+        #dbclass.funcPrep({data_json['type']:data_json['data_text']})
+        posts = dbclass.see_all_post_v2(0, 100, {data_json['type']:data_json['data_text']})
         print (posts_count, len(posts))#, data_json)
         dc = {}
         min_l = []
@@ -201,5 +206,4 @@ if __name__ == "__main__":
 модель
 
 """
-
 
