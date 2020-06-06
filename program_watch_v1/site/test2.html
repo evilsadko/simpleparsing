@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<link media="all" href="http://178.158.131.41:8800/style.css" rel="stylesheet">
+<link media="all" href="http://localhost:8800/style.css" rel="stylesheet">
 <!--     <div id="b-popup">-->
 <!--         <a id="close" data-toggle="modal" data-target="#login" class="submit-btn-wrap submit-btn submit-redirect" onclick="Close(0)"> Закрыть </a>-->
 <!--         <div id="SeeBox"style="font-family: Roboto,helvetica,arial,sans-serif;"></div>-->
@@ -511,8 +510,8 @@ Object.size = function(obj) {
 var count_cont = document.getElementById("count-cont");//.innerHTML = count_cont;
 var show_end = document.getElementById("show-end");//.innerHTML = x["data_size"];
 var temp_ls = "none";
-var temp_y;
-var temp_x;
+var temp_y ="None";
+var temp_x ="None";
 var temp_z;
 var text = '{{items}}';
 var obj = JSON.parse(text.unescapeHtml());
@@ -693,8 +692,9 @@ function GetData(x){
 		
    };
    start += data_size;
-   http.send(JSON.stringify({"process":"loadMore", "data_size": data_size, "start": start}));
-   
+   //{data_json['type']:data_json['data_text']}
+   http.send(JSON.stringify({"process":"loadMore", "data_size": data_size, "start": start, "type":temp_y,"data_text":temp_x}));
+   //temp_x, "type": temp_y
 }
 
 
@@ -723,8 +723,6 @@ tob_button.onclick = function(){
 };
 window.onscroll = scroll;
 
-
-
 function searchBrand(x, y, z) {
   temp_y = y;
   temp_x = x;
@@ -738,11 +736,6 @@ function searchBrand(x, y, z) {
       document.getElementById(x).style.display = "block";
       temp_ls = x;
   }
-}
-function searchModel(x, y, z) {
-  temp_y = y;
-  temp_x = x;
-  temp_z = z;
 }
 
 function searchCont(){
