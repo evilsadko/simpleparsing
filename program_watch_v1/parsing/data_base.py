@@ -17,12 +17,13 @@ class DataBase(object):
          
          #self.db = self.client["x"] 
          #self.n ="collection"
-         #self.db = self.client["watch"] #Work работает первая
-         #self.db = self.client["watch_t"]  #
-         #self.db = self.client["watch_t1"]
-         self.db = self.client["watch_t2"]
+         #self.db = self.client["watch"] 
+         #self.db = self.client["watch_t1"] 
+         #wself.db = self.client["watch_t2"] 
+         self.db = self.client["watch_t3"] 
          self.n ="collection"
          self.u ="user"
+         #self.z = None
          
      def user_add(self, post):
          u ="user"
@@ -58,7 +59,6 @@ class DataBase(object):
                 self.n = x
 
      def create_post(self, post):
-                 #print (post)
                  post_id = self.db[self.n].insert_one(post).inserted_id
                  return post_id
 
@@ -74,14 +74,23 @@ class DataBase(object):
               i["_id"] = str(i["_id"])
               list.append(i)
          return list
-
- 
-     def one_find_post(self, name):
-         result = self.db[self.n].find_one(name)#({"name_id":name})
-         return result  
+         
+     def see_all_post_v1(self, x, y):
+         return list(self.db[self.n].find().skip(x).limit(y))
+         #return list(self.db[self.n].find().skip(40).limit(40))
+     #def funcPrep(self, x):
+     #   self.z=x
+         
+     def see_all_post_v2(self, x, y, z):
+         if z == None:
+            return list(self.db[self.n].find().skip(x).limit(y))
+         else:
+            return list(self.db[self.n].find(z).skip(x).limit(y))
+         
      def find_many_post(self, idx):
          #print (idx, self.n)
-         return self.db[self.n].find(idx)
+         return list(self.db[self.n].find(idx))
+ 
      def see_post(self, idx):
          #print (idx, self.n)
          return self.db[self.n].find_one(idx)
@@ -109,9 +118,12 @@ class DataBase(object):
                  result = self.db[self.n].delete_one(result)
                  result.deleted_count 
      # Список баз
-     
+     #кол-во всех данных
      def count(self):
          return self.db[self.n].find().count()
+     #кол-во фильтрованных данных
+     def count1(self, x):
+         return self.db[self.n].find(x).count()    
 
 
      def del_db_by_name(self, x):
@@ -122,8 +134,8 @@ class DataBase(object):
 
      def see_collection(self):
         list = []
-        for i in self.db.collection_names():#3.6 #list_collection_names(): 2.7
-           #print(i)
+        for i in self.db.collection_names(): #list_
+           print(i)
            list.append(i)
         return list
 
@@ -133,8 +145,28 @@ class DataBase(object):
 
 
 if __name__ == "__main__":
-        print ("Start DB")
+        print ("Start")
         #classDB = DataBase()
         #classDB.see_client()
+        
+#class Car(models.Model):
+#        color = models.CharField(...)
+
+
+#class Person(Model):
+#        name = models.CharField(...)
+#        car = models.ForeignKey(...)
+
+#people = Person.objects.filter(...)
+#for person in people:
+#    car = person.car
+
+#from django.db.models import Q
+
+#my_filter_qs = Q()
+#for creator in creator_list:
+#    my_filter_qs = my_filter_qs | Q(creator=creator)
+#my_model.objects.filter(my_filter_qs)
+
 
 
