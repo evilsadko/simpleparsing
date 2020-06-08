@@ -146,27 +146,4 @@ class DataBase(object):
 
 if __name__ == "__main__":
         print ("Start")
-        #classDB = DataBase()
-        #classDB.see_client()
         
-#class Car(models.Model):
-#        color = models.CharField(...)
-
-
-#class Person(Model):
-#        name = models.CharField(...)
-#        car = models.ForeignKey(...)
-
-#people = Person.objects.filter(...)
-#for person in people:
-#    car = person.car
-
-#from django.db.models import Q
-
-#my_filter_qs = Q()
-#for creator in creator_list:
-#    my_filter_qs = my_filter_qs | Q(creator=creator)
-#my_model.objects.filter(my_filter_qs)
-
-
-
