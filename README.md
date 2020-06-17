@@ -58,19 +58,18 @@ sudo systemctl start mongod <br/>
 {"data_size": 2, "start": 0, "data_text":"Daytona"}
 ```
 Парсить:
-https://www.antiquorum.swiss - работает
-https://www.liveauctioneers.com 
-https://www.invaluable.com/
-https://www.fortunaauction.com/
-https://www.tateward.com/
-https://violity.com/
-https://www.chrono24.com.ru/ - каталог
-https://www.ebay.com/
-https://www.artprice.com/
-https://www.catawiki.com/
-https://artinfo.pl/
-https://www.auction.fr/
-http://anticvarium.ru/
-https://www.sothebys.com/
-https://www.sothebys.com/
-https://jewelry.ha.com/
+https://www.antiquorum.swiss - работает <br/>
+https://www.liveauctioneers.com <br/>
+https://www.invaluable.com/ <br/>
+https://www.fortunaauction.com/ <br/>
+https://www.tateward.com/ <br/>
+https://violity.com/ <br/>
+https://www.chrono24.com.ru/ - каталог <br/>
+https://www.ebay.com/ <br/>
+https://www.artprice.com/ <br/>
+https://www.catawiki.com/ <br/>
+https://artinfo.pl/ <br/>
+https://www.auction.fr/ <br/>
+http://anticvarium.ru/ <br/>
+https://www.sothebys.com/ <br/>
+https://jewelry.ha.com/ <br/>
