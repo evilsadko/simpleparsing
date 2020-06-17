@@ -141,7 +141,13 @@ class DataBase(object):
      def see_client(self):
          for idb in self.client.database_names():
              print (idb, "Имя базы данных")
-
+               
+    def full_text(self, text, x, y):
+         count = self.db[self.n].find({"$text": {"$search": text}}).count() 
+         if count > y:
+             return list(self.db[self.n].find({"$text": {"$search": text}}).skip(x).limit(y)), count
+         else:
+             return list(self.db[self.n].find({"$text": {"$search": text}})), count 
 
 if __name__ == "__main__":
         print ("Start")
