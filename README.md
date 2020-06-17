@@ -52,3 +52,8 @@ sudo systemctl start mongod <br/>
 {"posts_count":idx}
 ```
 6 "GET", http://178.158.131.41:8800/data_info/_id
+
+7 "POST", http://178.158.131.41:8800/text
+```json
+{"data_size": 2, "start": 0, "data_text":"Daytona"}
+```
