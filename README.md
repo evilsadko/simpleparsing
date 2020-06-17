@@ -57,3 +57,20 @@ sudo systemctl start mongod <br/>
 ```json
 {"data_size": 2, "start": 0, "data_text":"Daytona"}
 ```
+Парсить:
+https://www.antiquorum.swiss - работает
+https://www.liveauctioneers.com 
+https://www.invaluable.com/
+https://www.fortunaauction.com/
+https://www.tateward.com/
+https://violity.com/
+https://www.chrono24.com.ru/ - каталог
+https://www.ebay.com/
+https://www.artprice.com/
+https://www.catawiki.com/
+https://artinfo.pl/
+https://www.auction.fr/
+http://anticvarium.ru/
+https://www.sothebys.com/
+https://www.sothebys.com/
+https://jewelry.ha.com/
