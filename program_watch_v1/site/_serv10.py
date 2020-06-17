@@ -177,8 +177,25 @@ class SearchHandler(BaseHandler):
         dc["info"] = {"min_min": min(min_l), "min_mid": min_i/len(posts), "min_max": max(min_l),
                       "max_min": min(max_l), "max_mid": max_i/len(posts), "max_max": max(max_l),
                       }
-        self.write(json.dumps(dc))    
-
+        self.write(json.dumps(dc))   
+        
+class FullText(BaseHandler):
+    def post(self):
+        dbclass.create_collection("Watch")
+        data_json = json.loads(self.request.body) 
+        #data_json['start'], data_json["data_size"]
+        D = dbclass.full_text(data_json["data_text"], data_json["start"], data_json["data_size"]) 
+        dc = {} 
+        for ix, post in enumerate(D[0]):
+            print (post)
+            dc[ix] = {"_id":str(post["_id"]), "image":post["Image"],
+                       "brand":post["Brand"], "model":post["Model"],
+                       "price":post["Price"], "link":post["link"],
+                       "info": post["Info"], "title":post["title"],
+                       "lot_id":post["lot_id"], "lot_sold":post["lot_sold"],
+                       "data_size":len(D[0]), "posts_count":D[1],
+                       "start":data_json['start']}#
+        self.write(json.dumps(dc))  
       	
 def make_app():
     settings = {
@@ -188,6 +205,7 @@ def make_app():
     return tornado.web.Application([
         (r"/", MainHandler),
         (r"/search", SearchHandler),
+        (r"/text", FullText),    
         (r"/data_info/(.*)", tornado.web.StaticFileHandler, {'path':'./data_info'}), 
         (r"/(pv_layer_controls.png)", tornado.web.StaticFileHandler, {'path':'./'}),
         (r"/(style.css)", tornado.web.StaticFileHandler, {'path':'./'}),
