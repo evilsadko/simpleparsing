@@ -184,18 +184,49 @@ class FullText(BaseHandler):
         dbclass.create_collection("Watch")
         data_json = json.loads(self.request.body) 
         #data_json['start'], data_json["data_size"]
-        D = dbclass.full_text(data_json["data_text"], data_json["start"], data_json["data_size"]) 
-        dc = {} 
-        for ix, post in enumerate(D[0]):
-            print (post)
-            dc[ix] = {"_id":str(post["_id"]), "image":post["Image"],
-                       "brand":post["Brand"], "model":post["Model"],
-                       "price":post["Price"], "link":post["link"],
-                       "info": post["Info"], "title":post["title"],
-                       "lot_id":post["lot_id"], "lot_sold":post["lot_sold"],
-                       "data_size":len(D[0]), "posts_count":D[1],
-                       "start":data_json['start']}#
-        self.write(json.dumps(dc))  
+        try:
+                if data_json["data_text"] != "":
+                        D = dbclass.full_text(data_json["data_text"], data_json["start"], data_json["data_size"]) 
+                        dc = {} 
+                        for ix, post in enumerate(D[0]):
+                            #print (post)
+                            dc[ix] = {"_id":str(post["_id"]), "image":post["Image"],
+                                       "brand":post["Brand"], "model":post["Model"],
+                                       "price":post["Price"], "link":post["link"],
+                                       "info": post["Info"], "title":post["title"],
+                                       "lot_id":post["lot_id"], "lot_sold":post["lot_sold"],
+                                       "data_size":len(D[0]), "posts_count":D[1],
+                                       "start":data_json['start']}#
+                        self.write(json.dumps(dc))  
+                else:
+                        posts = dbclass.see_all_post_v2(data_json['start'], data_json["data_size"], None) 
+                        posts_count = dbclass.count()  
+                        dc = {} 
+                        for ix, post in enumerate(posts):
+                            #print (post)
+                            dc[ix] = {"_id":str(post["_id"]), "image":post["Image"],
+                                       "brand":post["Brand"], "model":post["Model"],
+                                       "price":post["Price"], "link":post["link"],
+                                       "info": post["Info"], "title":post["title"],
+                                       "lot_id":post["lot_id"], "lot_sold":post["lot_sold"],
+                                       "data_size":len(posts), "posts_count":posts_count,
+                                       "start":data_json['start']}#
+                        self.write(json.dumps(dc))  
+        except KeyError:
+                        posts = dbclass.see_all_post_v2(data_json['start'], data_json["data_size"], None) 
+                        posts_count = dbclass.count()  
+                        dc = {} 
+                        for ix, post in enumerate(posts):
+                            #print (post)
+                            dc[ix] = {"_id":str(post["_id"]), "image":post["Image"],
+                                       "brand":post["Brand"], "model":post["Model"],
+                                       "price":post["Price"], "link":post["link"],
+                                       "info": post["Info"], "title":post["title"],
+                                       "lot_id":post["lot_id"], "lot_sold":post["lot_sold"],
+                                       "data_size":len(posts), "posts_count":posts_count,
+                                       "start":data_json['start']}#
+                        self.write(json.dumps(dc))   
+                        
       	
 def make_app():
     settings = {
