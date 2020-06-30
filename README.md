@@ -59,17 +59,18 @@ sudo systemctl start mongod <br/>
 ```
 Парсить: <br/>
 https://www.antiquorum.swiss - работает <br/>
-https://www.liveauctioneers.com <br/>
-https://www.invaluable.com/ <br/>
-https://www.fortunaauction.com/ <br/>
-https://www.tateward.com/ <br/>
-https://violity.com/ <br/>
-https://www.chrono24.com.ru/ - каталог <br/>
-https://www.ebay.com/ <br/>
-https://www.artprice.com/ <br/>
-https://www.catawiki.com/ <br/>
+https://www.liveauctioneers.com - работает <br/> 
+https://www.invaluable.com/ * <br/>
+https://www.fortunaauction.com/ * <br/>
+https://www.tateward.com/ * <br/>
+https://violity.com/ * <br/>
+https://www.chrono24.com.ru/ - каталог * <br/>
+https://www.ebay.com/ - работает <br/> 
+https://www.artprice.com/ *<br/>
+https://www.catawiki.com/ *<br/>
 https://artinfo.pl/ <br/>
-https://www.auction.fr/ <br/>
-http://anticvarium.ru/ <br/>
-https://www.sothebys.com/ <br/>
-https://jewelry.ha.com/ <br/>
+https://www.auction.fr/ *<br/>
+http://anticvarium.ru/ *<br/>
+https://www.sothebys.com/ *<br/>
+https://jewelry.ha.com/ *<br/>
+**бесконечная recaptcha v2 для proxy 
