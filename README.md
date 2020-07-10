@@ -49,7 +49,7 @@ sudo systemctl start mongod <br/>
 ```json
 { "all":"1", "data_text":"Rolex","type":"Brand"}
 
-{"posts_count":idx}
+{"posts_count":"idx"}
 ```
 6 "GET", http://178.158.131.41:8800/data_info/_id
 
