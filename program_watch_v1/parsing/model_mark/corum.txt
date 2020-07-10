@@ -1,5 +1,0 @@
-Admiral's Cup;admirals-cup;565;https://www.chrono24.com.ru/corum/admirals-cup--mod565.htm;
-Bubble;bubble;1324;https://www.chrono24.com.ru/corum/bubble--mod1324.htm;
-Golden Bridge;golden-bridge;563;https://www.chrono24.com.ru/corum/golden-bridge--mod563.htm;
-Coin Watch;coin-watch;1323;https://www.chrono24.com.ru/corum/coin-watch--mod1323.htm;
-Ti-Bridge;ti-bridge;1322;https://www.chrono24.com.ru/corum/ti-bridge--mod1322.htm;

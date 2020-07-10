@@ -1,7 +1,0 @@
-Vintage;vintage;572;https://www.chrono24.com.ru/bellross/vintage--mod572.htm;
-BR 03;br-03;571;https://www.chrono24.com.ru/bellross/br-03--mod571.htm;
-BR 01;br-01;570;https://www.chrono24.com.ru/bellross/br-01--mod570.htm;
-BR S;br-s;1531;https://www.chrono24.com.ru/bellross/br-s--mod1531.htm;
-BR 05;br-05;2918;https://www.chrono24.com.ru/bellross/br-05--mod2918.htm;
-BR-X1;br-x1;1516;https://www.chrono24.com.ru/bellross/br-x1--mod1516.htm;
-BR 02;br-02;569;https://www.chrono24.com.ru/bellross/br-02--mod569.htm;

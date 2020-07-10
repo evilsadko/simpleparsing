@@ -1,9 +1,0 @@
-Nautilus;nautilus;106;https://www.chrono24.com.ru/patekphilippe/nautilus--mod106.htm;
-Calatrava;calatrava;93;https://www.chrono24.com.ru/patekphilippe/calatrava--mod93.htm;
-Grand Complications;grand-complications;101;https://www.chrono24.com.ru/patekphilippe/grand-complications--mod101.htm;
-Complications;complications;96;https://www.chrono24.com.ru/patekphilippe/complications--mod96.htm;
-Aquanaut;aquanaut;92;https://www.chrono24.com.ru/patekphilippe/aquanaut--mod92.htm;
-Golden Ellipse;golden-ellipse;97;https://www.chrono24.com.ru/patekphilippe/golden-ellipse--mod97.htm;
-Gondolo;gondolo;98;https://www.chrono24.com.ru/patekphilippe/gondolo--mod98.htm;
-Twenty~4;twenty4;109;https://www.chrono24.com.ru/patekphilippe/twenty4--mod109.htm;
-Vintage;vintage;110;https://www.chrono24.com.ru/patekphilippe/vintage--mod110.htm;

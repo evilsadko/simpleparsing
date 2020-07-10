@@ -1,7 +1,0 @@
-Excalibur;excalibur;1639;https://www.chrono24.com.ru/rogerdubuis/excalibur--mod1639.htm;
-Golden Square;golden-square;1648;https://www.chrono24.com.ru/rogerdubuis/golden-square--mod1648.htm;
-Hommage;hommage;1640;https://www.chrono24.com.ru/rogerdubuis/hommage--mod1640.htm;
-La Monégasque;la-monegasque;1642;https://www.chrono24.com.ru/rogerdubuis/la-monegasque--mod1642.htm;
-Sympathie;sympathie;1647;https://www.chrono24.com.ru/rogerdubuis/sympathie--mod1647.htm;
-Velvet;velvet;1641;https://www.chrono24.com.ru/rogerdubuis/velvet--mod1641.htm;
-Pulsion;pulsion;1643;https://www.chrono24.com.ru/rogerdubuis/pulsion--mod1643.htm;

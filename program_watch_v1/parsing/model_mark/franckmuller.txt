@@ -1,8 +1,0 @@
-Casablanca;casablanca;509;https://www.chrono24.com.ru/franckmuller/casablanca--mod509.htm;
-Cintrée Curvex;cintree-curvex;510;https://www.chrono24.com.ru/franckmuller/cintree-curvex--mod510.htm;
-Color Dreams;color-dreams;521;https://www.chrono24.com.ru/franckmuller/color-dreams--mod521.htm;
-Conquistador;conquistador;511;https://www.chrono24.com.ru/franckmuller/conquistador--mod511.htm;
-Long Island;long-island;516;https://www.chrono24.com.ru/franckmuller/long-island--mod516.htm;
-Master Banker;master-banker;1405;https://www.chrono24.com.ru/franckmuller/master-banker--mod1405.htm;
-Master Square;master-square;518;https://www.chrono24.com.ru/franckmuller/master-square--mod518.htm;
-Vanguard;vanguard;2046;https://www.chrono24.com.ru/franckmuller/vanguard--mod2046.htm;

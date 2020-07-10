@@ -1,8 +1,0 @@
-Big Bang;big-bang;203;https://www.chrono24.com.ru/hublot/big-bang--mod203.htm;
-Classic Fusion;classic-fusion;1064;https://www.chrono24.com.ru/hublot/classic-fusion--mod1064.htm;
-Big Bang Unico;big-bang-unico;1065;https://www.chrono24.com.ru/hublot/big-bang-unico--mod1065.htm;
-King Power;king-power;201;https://www.chrono24.com.ru/hublot/king-power--mod201.htm;
-Spirit of Big Bang;spirit-of-big-bang;1070;https://www.chrono24.com.ru/hublot/spirit-of-big-bang--mod1070.htm;
-Classic;classic;200;https://www.chrono24.com.ru/hublot/classic--mod200.htm;
-Big Bang Ferrari;big-bang-ferrari;1066;https://www.chrono24.com.ru/hublot/big-bang-ferrari--mod1066.htm;
-Classic Fusion Aerofusion;classic-fusion-aerofusion;2416;https://www.chrono24.com.ru/hublot/classic-fusion-aerofusion--mod2416.htm;

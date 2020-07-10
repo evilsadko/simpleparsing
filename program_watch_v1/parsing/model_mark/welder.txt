@@ -1,4 +1,0 @@
-K24;k24;1998;https://www.chrono24.com.ru/welder/k24--mod1998.htm;
-K25;k25;1999;https://www.chrono24.com.ru/welder/k25--mod1999.htm;
-K31;k31;2001;https://www.chrono24.com.ru/welder/k31--mod2001.htm;
-K29;k29;2000;https://www.chrono24.com.ru/welder/k29--mod2000.htm;

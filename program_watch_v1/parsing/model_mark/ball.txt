@@ -1,5 +1,0 @@
-Trainmaster;trainmaster;1161;https://www.chrono24.com.ru/ball/trainmaster--mod1161.htm;
-Engineer Master II;engineer-master-ii;1148;https://www.chrono24.com.ru/ball/engineer-master-ii--mod1148.htm;
-Fireman;fireman;1154;https://www.chrono24.com.ru/ball/fireman--mod1154.htm;
-Engineer II;engineer-ii;1142;https://www.chrono24.com.ru/ball/engineer-ii--mod1142.htm;
-Conductor;conductor;1128;https://www.chrono24.com.ru/ball/conductor--mod1128.htm;

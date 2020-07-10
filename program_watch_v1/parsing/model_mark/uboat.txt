@@ -1,6 +1,0 @@
-Classico;classico;573;https://www.chrono24.com.ru/uboat/classico--mod573.htm;
-Chimera;chimera;1280;https://www.chrono24.com.ru/uboat/chimera--mod1280.htm;
-Flightdeck;flightdeck;574;https://www.chrono24.com.ru/uboat/flightdeck--mod574.htm;
-U-42;u-42;1279;https://www.chrono24.com.ru/uboat/u-42--mod1279.htm;
-U-1001;u-1001;1281;https://www.chrono24.com.ru/uboat/u-1001--mod1281.htm;
-Thousands of Feet;thousands-of-feet;2304;https://www.chrono24.com.ru/uboat/thousands-of-feet--mod2304.htm;

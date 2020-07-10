@@ -1,9 +1,0 @@
-Luminor;luminor;136;https://www.chrono24.com.ru/panerai/luminor--mod136.htm;
-Luminor 1950;luminor-1950;1954;https://www.chrono24.com.ru/panerai/luminor-1950--mod1954.htm;
-Radiomir;radiomir;142;https://www.chrono24.com.ru/panerai/radiomir--mod142.htm;
-Radiomir 1940;radiomir-1940;1953;https://www.chrono24.com.ru/panerai/radiomir-1940--mod1953.htm;
-Ferrari;ferrari;119;https://www.chrono24.com.ru/panerai/ferrari--mod119.htm;
-Luminor Chrono;luminor-chrono;126;https://www.chrono24.com.ru/panerai/luminor-chrono--mod126.htm;
-Luminor GMT Automatic;luminor-gmt-automatic;128;https://www.chrono24.com.ru/panerai/luminor-gmt-automatic--mod128.htm;
-Luminor Marina;luminor-marina;129;https://www.chrono24.com.ru/panerai/luminor-marina--mod129.htm;
-Radiomir Black Seal;radiomir-black-seal;138;https://www.chrono24.com.ru/panerai/radiomir-black-seal--mod138.htm;

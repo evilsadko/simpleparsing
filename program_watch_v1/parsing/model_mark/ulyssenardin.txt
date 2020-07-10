@@ -1,8 +1,0 @@
-Marine;marine;1190;https://www.chrono24.com.ru/ulyssenardin/marine--mod1190.htm;
-Diver;diver;1192;https://www.chrono24.com.ru/ulyssenardin/diver--mod1192.htm;
-Dual Time;dual-time;905;https://www.chrono24.com.ru/ulyssenardin/dual-time--mod905.htm;
-Classico;classico;1202;https://www.chrono24.com.ru/ulyssenardin/classico--mod1202.htm;
-Executive Dual Time;executive-dual-time;780;https://www.chrono24.com.ru/ulyssenardin/executive-dual-time--mod780.htm;
-Michelangelo;michelangelo;737;https://www.chrono24.com.ru/ulyssenardin/michelangelo--mod737.htm;
-Quadrato Dual Time;quadrato-dual-time;745;https://www.chrono24.com.ru/ulyssenardin/quadrato-dual-time--mod745.htm;
-San Marco;san-marco;732;https://www.chrono24.com.ru/ulyssenardin/san-marco--mod732.htm;

@@ -1,6 +1,0 @@
-Ternos;ternos;663;https://www.chrono24.com.ru/davosa/ternos--mod663.htm;
-Argonautic;argonautic;667;https://www.chrono24.com.ru/davosa/argonautic--mod667.htm;
-Classic Automatic;classic-automatic;1906;https://www.chrono24.com.ru/davosa/classic-automatic--mod1906.htm;
-Trailmaster;trailmaster;1912;https://www.chrono24.com.ru/davosa/trailmaster--mod1912.htm;
-World Traveller;world-traveller;659;https://www.chrono24.com.ru/davosa/world-traveller--mod659.htm;
-X-Agon;x-agon;666;https://www.chrono24.com.ru/davosa/x-agon--mod666.htm;

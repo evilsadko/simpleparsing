@@ -1,4 +1,0 @@
-Airman;airman;631;https://www.chrono24.com.ru/glycine/airman--mod631.htm;
-Combat;combat;632;https://www.chrono24.com.ru/glycine/combat--mod632.htm;
-Incursore;incursore;633;https://www.chrono24.com.ru/glycine/incursore--mod633.htm;
-Lagunare;lagunare;634;https://www.chrono24.com.ru/glycine/lagunare--mod634.htm;

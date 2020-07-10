@@ -1,5 +1,0 @@
-Sportive;sportive;856;https://www.chrono24.com.ru/epos/sportive--mod856.htm;
-Oeuvre d'art;oeuvre-dart;858;https://www.chrono24.com.ru/epos/oeuvre-dart--mod858.htm;
-Originale;originale;855;https://www.chrono24.com.ru/epos/originale--mod855.htm;
-Emotion;emotion;857;https://www.chrono24.com.ru/epos/emotion--mod857.htm;
-Passion;passion;801;https://www.chrono24.com.ru/epos/passion--mod801.htm;

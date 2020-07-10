@@ -1,5 +1,0 @@
-Grande Seconde;grande-seconde;1940;https://www.chrono24.com.ru/jaquetdroz/grande-seconde--mod1940.htm;
-Astrale;astrale;1942;https://www.chrono24.com.ru/jaquetdroz/astrale--mod1942.htm;
-Grande Seconde SW;grande-seconde-sw;1941;https://www.chrono24.com.ru/jaquetdroz/grande-seconde-sw--mod1941.htm;
-Petite Heure Minute;petite-heure-minute;1943;https://www.chrono24.com.ru/jaquetdroz/petite-heure-minute--mod1943.htm;
-Les Ateliers D' Art;les-ateliers-d-art;1945;https://www.chrono24.com.ru/jaquetdroz/les-ateliers-d-art--mod1945.htm;

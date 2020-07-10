@@ -1,7 +1,0 @@
-Bold;bold;1252;https://www.chrono24.com.ru/movado/bold--mod1252.htm;
-Museum;museum;690;https://www.chrono24.com.ru/movado/museum--mod690.htm;
-Datron;datron;683;https://www.chrono24.com.ru/movado/datron--mod683.htm;
-Series 800;series-800;695;https://www.chrono24.com.ru/movado/series-800--mod695.htm;
-Circa;circa;1254;https://www.chrono24.com.ru/movado/circa--mod1254.htm;
-Vizio;vizio;698;https://www.chrono24.com.ru/movado/vizio--mod698.htm;
-Sapphire;sapphire;693;https://www.chrono24.com.ru/movado/sapphire--mod693.htm;

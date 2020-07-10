@@ -1,6 +1,0 @@
-Startimer;startimer;1458;https://www.chrono24.com.ru/alpina/startimer--mod1458.htm;
-Alpiner;alpiner;1452;https://www.chrono24.com.ru/alpina/alpiner--mod1452.htm;
-Seastrong;seastrong;1459;https://www.chrono24.com.ru/alpina/seastrong--mod1459.htm;
-Avalanche;avalanche;1462;https://www.chrono24.com.ru/alpina/avalanche--mod1462.htm;
-Horological Smartwatch;horological-smartwatch;1461;https://www.chrono24.com.ru/alpina/horological-smartwatch--mod1461.htm;
-Club;club;1464;https://www.chrono24.com.ru/alpina/club--mod1464.htm;

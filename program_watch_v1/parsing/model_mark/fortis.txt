@@ -1,6 +1,0 @@
-Flieger;flieger;1349;https://www.chrono24.com.ru/fortis/flieger--mod1349.htm;
-B-42 Marinemaster;b-42-marinemaster;1356;https://www.chrono24.com.ru/fortis/b-42-marinemaster--mod1356.htm;
-B-42 Flieger;b-42-flieger;1354;https://www.chrono24.com.ru/fortis/b-42-flieger--mod1354.htm;
-Marinemaster;marinemaster;1359;https://www.chrono24.com.ru/fortis/marinemaster--mod1359.htm;
-Square;square;1358;https://www.chrono24.com.ru/fortis/square--mod1358.htm;
-Colors;colors;1352;https://www.chrono24.com.ru/fortis/colors--mod1352.htm;

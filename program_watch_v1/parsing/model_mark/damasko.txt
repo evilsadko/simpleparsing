@@ -1,6 +1,0 @@
-DA 44;da-44;2156;https://www.chrono24.com.ru/damasko/da-44--mod2156.htm;
-DC 56;dc-56;2154;https://www.chrono24.com.ru/damasko/dc-56--mod2154.htm;
-DA 37;da-37;2162;https://www.chrono24.com.ru/damasko/da-37--mod2162.htm;
-DA 36;da-36;2157;https://www.chrono24.com.ru/damasko/da-36--mod2157.htm;
-DA 46;da-46;2159;https://www.chrono24.com.ru/damasko/da-46--mod2159.htm;
-DC 66;dc-66;2158;https://www.chrono24.com.ru/damasko/dc-66--mod2158.htm;

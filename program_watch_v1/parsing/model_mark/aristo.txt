@@ -1,3 +1,0 @@
-Beobachter;beobachter;2165;https://www.chrono24.com.ru/aristo/beobachter--mod2165.htm;
-Pilot;pilot;2167;https://www.chrono24.com.ru/aristo/pilot--mod2167.htm;
-Navigator;navigator;2166;https://www.chrono24.com.ru/aristo/navigator--mod2166.htm;

@@ -1,8 +1,0 @@
-Masterpiece;masterpiece;231;https://www.chrono24.com.ru/mauricelacroix/masterpiece--mod231.htm;
-Pontos;pontos;232;https://www.chrono24.com.ru/mauricelacroix/pontos--mod232.htm;
-Les Classiques;les-classiques;229;https://www.chrono24.com.ru/mauricelacroix/les-classiques--mod229.htm;
-Miros;miros;230;https://www.chrono24.com.ru/mauricelacroix/miros--mod230.htm;
-Fiaba;fiaba;228;https://www.chrono24.com.ru/mauricelacroix/fiaba--mod228.htm;
-Masterpiece Phases de Lune;masterpiece-phases-de-lune;1384;https://www.chrono24.com.ru/mauricelacroix/masterpiece-phases-de-lune--mod1384.htm;
-Pontos Chronographe;pontos-chronographe;1392;https://www.chrono24.com.ru/mauricelacroix/pontos-chronographe--mod1392.htm;
-Pontos Day Date;pontos-day-date;1391;https://www.chrono24.com.ru/mauricelacroix/pontos-day-date--mod1391.htm;

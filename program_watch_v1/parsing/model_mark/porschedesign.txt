@@ -1,4 +1,0 @@
-Dashboard;dashboard;246;https://www.chrono24.com.ru/porschedesign/dashboard--mod246.htm;
-Flat Six;flat-six;258;https://www.chrono24.com.ru/porschedesign/flat-six--mod258.htm;
-Worldtimer;worldtimer;259;https://www.chrono24.com.ru/porschedesign/worldtimer--mod259.htm;
-Indicator;indicator;257;https://www.chrono24.com.ru/porschedesign/indicator--mod257.htm;

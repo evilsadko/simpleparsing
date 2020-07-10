@@ -1,7 +1,0 @@
-Grand Seiko;grand-seiko;839;https://www.chrono24.com.ru/seiko/grand-seiko--mod839.htm;
-Prospex;prospex;847;https://www.chrono24.com.ru/seiko/prospex--mod847.htm;
-Presage;presage;2477;https://www.chrono24.com.ru/seiko/presage--mod2477.htm;
-5 Sports;5-sports;1420;https://www.chrono24.com.ru/seiko/5-sports--mod1420.htm;
-Astron;astron;841;https://www.chrono24.com.ru/seiko/astron--mod841.htm;
-Kinetic;kinetic;852;https://www.chrono24.com.ru/seiko/kinetic--mod852.htm;
-Spirit;spirit;849;https://www.chrono24.com.ru/seiko/spirit--mod849.htm;

@@ -1,9 +1,0 @@
-Centrix;centrix;713;https://www.chrono24.com.ru/rado/centrix--mod713.htm;
-Sintra;sintra;541;https://www.chrono24.com.ru/rado/sintra--mod541.htm;
-Integral;integral;540;https://www.chrono24.com.ru/rado/integral--mod540.htm;
-Ceramica;ceramica;539;https://www.chrono24.com.ru/rado/ceramica--mod539.htm;
-D-Star;d-star;1118;https://www.chrono24.com.ru/rado/d-star--mod1118.htm;
-D-Star 200;d-star-200;1119;https://www.chrono24.com.ru/rado/d-star-200--mod1119.htm;
-eSenza;esenza;714;https://www.chrono24.com.ru/rado/esenza--mod714.htm;
-True;true;542;https://www.chrono24.com.ru/rado/true--mod542.htm;
-True Thinline;true-thinline;1121;https://www.chrono24.com.ru/rado/true-thinline--mod1121.htm;

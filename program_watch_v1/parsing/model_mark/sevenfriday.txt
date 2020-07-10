@@ -1,5 +1,0 @@
-P3;p3;1611;https://www.chrono24.com.ru/sevenfriday/p3--mod1611.htm;
-P1;p1;1602;https://www.chrono24.com.ru/sevenfriday/p1--mod1602.htm;
-M2;m2;1616;https://www.chrono24.com.ru/sevenfriday/m2--mod1616.htm;
-P2;p2;1606;https://www.chrono24.com.ru/sevenfriday/p2--mod1606.htm;
-M1;m1;1612;https://www.chrono24.com.ru/sevenfriday/m1--mod1612.htm;

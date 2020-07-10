@@ -1,8 +1,0 @@
-Classima;classima;309;https://www.chrono24.com.ru/baumemercier/classima--mod309.htm;
-Capeland;capeland;308;https://www.chrono24.com.ru/baumemercier/capeland--mod308.htm;
-Hampton;hampton;310;https://www.chrono24.com.ru/baumemercier/hampton--mod310.htm;
-Riviera;riviera;311;https://www.chrono24.com.ru/baumemercier/riviera--mod311.htm;
-Catwalk;catwalk;1587;https://www.chrono24.com.ru/baumemercier/catwalk--mod1587.htm;
-Ilea;ilea;312;https://www.chrono24.com.ru/baumemercier/ilea--mod312.htm;
-Linea;linea;576;https://www.chrono24.com.ru/baumemercier/linea--mod576.htm;
-Promesse;promesse;1585;https://www.chrono24.com.ru/baumemercier/promesse--mod1585.htm;

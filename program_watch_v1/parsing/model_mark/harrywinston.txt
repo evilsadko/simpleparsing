@@ -1,6 +1,0 @@
-Ocean;ocean;1620;https://www.chrono24.com.ru/harrywinston/ocean--mod1620.htm;
-Premier;premier;1621;https://www.chrono24.com.ru/harrywinston/premier--mod1621.htm;
-Midnight;midnight;1617;https://www.chrono24.com.ru/harrywinston/midnight--mod1617.htm;
-Project Z;project-z;1618;https://www.chrono24.com.ru/harrywinston/project-z--mod1618.htm;
-Avenue;avenue;1619;https://www.chrono24.com.ru/harrywinston/avenue--mod1619.htm;
-Opus;opus;1622;https://www.chrono24.com.ru/harrywinston/opus--mod1622.htm;

@@ -1,7 +1,0 @@
-Classics;classics;1472;https://www.chrono24.com.ru/frederiqueconstant/classics--mod1472.htm;
-Manufacture;manufacture;1465;https://www.chrono24.com.ru/frederiqueconstant/manufacture--mod1465.htm;
-Slimline;slimline;1471;https://www.chrono24.com.ru/frederiqueconstant/slimline--mod1471.htm;
-Horological Smartwatch;horological-smartwatch;908;https://www.chrono24.com.ru/frederiqueconstant/horological-smartwatch--mod908.htm;
-Runabout;runabout;1466;https://www.chrono24.com.ru/frederiqueconstant/runabout--mod1466.htm;
-Vintage Rally;vintage-rally;1467;https://www.chrono24.com.ru/frederiqueconstant/vintage-rally--mod1467.htm;
-Ladies Automatic;ladies-automatic;909;https://www.chrono24.com.ru/frederiqueconstant/ladies-automatic--mod909.htm;

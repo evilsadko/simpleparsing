@@ -1,4 +1,0 @@
-950;950;1826;https://www.chrono24.com.ru/sector/950--mod1826.htm;
-450;450;1829;https://www.chrono24.com.ru/sector/450--mod1829.htm;
-850;850;1827;https://www.chrono24.com.ru/sector/850--mod1827.htm;
-Shark Master;shark-master;1828;https://www.chrono24.com.ru/sector/shark-master--mod1828.htm;
