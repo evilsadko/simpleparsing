@@ -66,31 +66,21 @@ def scroll():
 """
 
 if __name__ == "__main__":
-        #classdb = DataBase()
-        #proxy = my_proxy("127.0.0.1", 9050)
         outfile = open('data.txt', 'w')
         proxy = my_proxy("127.0.0.1", 9050)
-        #proxy = my_proxy("198.46.160.38", 8080)
-        #proxy = my_proxy('111.111.111.111', 1111)
-        #Sess = RequestLib()
         proxy.get("https://www.sothebys.com/en/results?locale=en")#search?keyword=rolex&upcoming=false
         last_height = proxy.execute_script("return document.body.scrollHeight")
         scroll()
         html = proxy.page_source
         soup = BeautifulSoup(html, features="lxml")
         J = soup.find_all('a', {"class": "Card-info-container"})
-        #print (J)
-        #temp_list = []
         data = {}
         for IX, i in enumerate(J[:]):
             auctioneer = i.find('div', {'class':'Card-title'}).text
-            print (auctioneer)
             created_at = i.find('div', {'class':'Card-details'}).text
-            print (created_at)
             proxy.get(i["href"])
             try:
-            #css-1b67vvn css-1l934fo - select
-            #css-1x64id9 
+
                _button = WebDriverWait(proxy, 10).until(EC.element_to_be_clickable((By.CLASS_NAME ,"css-1l934fo")))
                _button.click()
             except:
@@ -114,7 +104,6 @@ if __name__ == "__main__":
                 try:
                    #cost = ii.find('span', {'class':'css-8fe5tn-label-bold'}).text
                    sold = ii.find('span', {'class':'css-8fe5tn-label-bold'}).text
-                   print (sold)
                 except:
                    sold = 0
                 temp_data = { "brand": "", "model": "",
@@ -132,16 +121,3 @@ if __name__ == "__main__":
             data[IX] = lots
         json.dump(data, outfile)
                                  
-            #temp_list.append(i["href"])
-            #a class="css-ytumd6"
-            #div Card-title
-            
-#        
-#        for i in J:
-#             proxy.get(i["href"])
-#             scroll()
-#             html = proxy.page_source
-#             soup = BeautifulSoup(html, features="lxml")
-#             time.sleep(random.choice([1,2,0.5]))
-#         json.dump(data, outfile)
-#https://www.drove.com/campaign/5f33d93d6345a20001f960d3?utm_medium=whatsapp&skey=.2ald
