@@ -71,7 +71,7 @@ https://www.catawiki.com/ *<br/>
 https://artinfo.pl/ <br/>
 https://www.auction.fr/ *<br/>
 http://anticvarium.ru/ *<br/>
-https://www.sothebys.com/ *<br/>
+https://www.sothebys.com/ - работает без proxy<br/>
 https://jewelry.ha.com/ *<br/>
 https://www.authenticwatches.com <br/>
 **бесконечная recaptcha v2 для proxy 
