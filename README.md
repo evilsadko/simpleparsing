@@ -1,6 +1,6 @@
 #### Парсинг сайтов, создания базы данных и обучение нейронной сети (часы, автомобили)
-connect_ws.py - подключение к websocket www.investing.com для сбора данных
-#8833 - brent oil
-#8830 - золото
-#8849 - wti oil
-#2186 - USD/RUB
+connect_ws.py - подключение к websocket www.investing.com для сбора данных </br>
+#8833 - brent oil </br>
+#8830 - золото </br>
+#8849 - wti oil </br>
+#2186 - USD/RUB </br>
