@@ -7,6 +7,8 @@ connect_ws.py - подключение к websocket www.investing.com для с�
 https://habr.com/ru/post/396505/</br>
 https://habr.com/ru/post/327022/</br>
 https://habr.com/ru/post/332700/</br>
+https://www.mql5.com/ru/articles/1482 </br>
+
 https://github.com/co11ter/goFAST - FAST</br>
 """
 https://rapidapi.com/apidojo/api/bloomberg-market-and-financial-news?endpoint=apiendpoint_41288e92-e585-496c-b36d-704c55a7ce59
