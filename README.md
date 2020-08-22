@@ -9,6 +9,7 @@ https://habr.com/ru/post/327022/</br>
 https://habr.com/ru/post/332700/</br>
 https://github.com/co11ter/goFAST - FAST</br>
 """
+https://rapidapi.com/apidojo/api/bloomberg-market-and-financial-news?endpoint=apiendpoint_41288e92-e585-496c-b36d-704c55a7ce59
 https://ru.wikipedia.org/wiki/Financial_Information_eXchange
 https://ru.wikipedia.org/wiki/FAST_протокол
 https://www.finam.ru/profile/tovary/brent/export/?market=24&em=19473&token=&code=BZ&apply=0&df=22&mf=7&yf=2020&from=22.08.2020&dt=22&mt=7&yt=2020&to=22.08.2020&p=1&f=BZ_200822_200822&e=.txt&cn=BZ&dtf=1&tmf=1&MSOR=1&mstime=on&mstimever=1&sep=1&sep2=1&datf=12&at=1
