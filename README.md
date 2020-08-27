@@ -1,5 +1,7 @@
 #### Парсинг сайтов, создания базы данных и обучение нейронной сети (часы, автомобили)
 connect_ws.py - подключение к websocket www.investing.com для сбора данных </br>
+https://github.com/saeed349/Deep-Reinforcement-Learning-in-Trading </br>
+http://stanford.edu/class/msande448/2019/Final_reports/gr2.pdf </br>
 #8833 - brent oil - https://ru.investing.com/commodities/brent-oil-historical-data</br>
 #8830 - золото - https://ru.investing.com/commodities/gold-streaming-chart</br>
 #8849 - wti oil - https://ru.investing.com/commodities/crude-oil-historical-data</br>
