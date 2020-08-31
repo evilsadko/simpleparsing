@@ -16,7 +16,7 @@ import threading
 from parsing import *
 
 
-acc_key = "1324149285:AAFEk04wDnLHV8279klY1H7zyUx46_X4dkM"
+acc_key = ""
 sess = RequestLib()
 
 class getToken(tornado.web.RequestHandler):
