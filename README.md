@@ -6,6 +6,7 @@ http://stanford.edu/class/msande448/2019/Final_reports/gr2.pdf </br>
 #8830 - золото - https://ru.investing.com/commodities/gold-streaming-chart</br>
 #8849 - wti oil - https://ru.investing.com/commodities/crude-oil-historical-data</br>
 #2186 - USD/RUB - https://ru.investing.com/currencies/usd-rub-historical-data </br>
+https://github.com/georgezouq/awesome-ai-in-finance </br>
 https://habr.com/ru/post/396505/</br>
 https://habr.com/ru/post/327022/</br>
 https://habr.com/ru/post/332700/</br>
