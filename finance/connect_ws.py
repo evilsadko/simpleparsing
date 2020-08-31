@@ -23,8 +23,7 @@ async def hello():
         while True:
            try:
              response = await websocket.recv()
-             response = response.replace("a","")#.replace("""\\""","")[2:-2]
-           
+             response = response.replace("a","")
              A = json.loads(response)
              A = json.loads(A[0])
              A = json.loads(A["messge"].split("::")[1])
@@ -33,7 +32,6 @@ async def hello():
              v_str = ', '.join(['"{}"'.format(str(name)) for name in A.values()])
              sql = """INSERT INTO `brentoil` ({}) VALUES ({})""".format(k_str, v_str)
              print (A)
-             #DB.create_data(sql)
            except:
              print ("ERROR")  
            OP += 1
