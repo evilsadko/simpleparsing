@@ -1,4 +1,5 @@
 connect_ws.py - подключение к websocket www.investing.com для сбора данных </br>
+https://blog.quantinsti.com/tick-tick-ohlc-data-pandas-tutorial/ </br>
 https://github.com/golsun/deep-RL-trading </br>
 https://github.com/johnnyp2587/fx-drqn </br>
 https://github.com/AlexaYuqinD/RL-FX-Trading </br>
