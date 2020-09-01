@@ -1,5 +1,6 @@
 connect_ws.py - подключение к websocket www.investing.com для сбора данных </br>
 https://github.com/saeed349/Deep-Reinforcement-Learning-in-Trading </br>
+https://github.com/cbailes/awesome-deep-trading </br>
 http://stanford.edu/class/msande448/2019/Final_reports/gr2.pdf </br>
 #8833 - brent oil - https://ru.investing.com/commodities/brent-oil-historical-data</br>
 #8830 - золото - https://ru.investing.com/commodities/gold-streaming-chart</br>
