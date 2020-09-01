@@ -1,4 +1,6 @@
 connect_ws.py - подключение к websocket www.investing.com для сбора данных </br>
+https://github.com/johnnyp2587/fx-drqn </br>
+https://github.com/AlexaYuqinD/RL-FX-Trading </br>
 https://github.com/saeed349/Deep-Reinforcement-Learning-in-Trading </br>
 https://github.com/cbailes/awesome-deep-trading </br>
 http://stanford.edu/class/msande448/2019/Final_reports/gr2.pdf </br>
