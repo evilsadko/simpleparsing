@@ -1,4 +1,5 @@
 connect_ws.py - подключение к websocket www.investing.com для сбора данных </br>
+https://towardsdatascience.com/how-and-why-i-got-75gb-of-free-foreign-exchange-tick-data-9ca78f5fa26c </br>
 https://www.quantnews.com/exploring-trader-sentiment-data-python-pandas/ </br>
 https://towardsdatascience.com/how-and-why-i-got-75gb-of-free-foreign-exchange-tick-data-9ca78f5fa26c </br>
 https://github.com/borisbanushev/stockpredictionai </br>
