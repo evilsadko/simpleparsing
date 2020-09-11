@@ -33,3 +33,5 @@ class connect_db():
 
 #https://ru.investing.com/commodities/brent-oil
 #https://ru.investing.com/commodities/crude-oil
+
+#https://stackoverflow.com/questions/21903411/enable-python-to-connect-to-mysql-via-ssh-tunnelling
