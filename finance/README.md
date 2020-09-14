@@ -28,3 +28,4 @@ https://www.finam.ru/profile/tovary/brent/export/?market=24&em=19473&token=&code
 https://www.finam.ru/profile/tovary/brent/export/ </br>
 https://www.backtrader.com/ </br>
 https://github.com/sachink2010/AutomatedStockTrading-DeepQ-Learning </br>
+https://mikepapinski.github.io/deep%20learning/machine%20learning/python/forex/2018/12/15/Predict-Candlestick-patterns-with-Keras-and-Forex-data.md.html </br>
