@@ -9,6 +9,7 @@ https://github.com/johnnyp2587/fx-drqn </br>
 https://github.com/AlexaYuqinD/RL-FX-Trading </br>
 https://github.com/saeed349/Deep-Reinforcement-Learning-in-Trading </br>
 https://github.com/cbailes/awesome-deep-trading </br>
+https://github.com/jkmackie/oil_futures_model </br>
 http://stanford.edu/class/msande448/2019/Final_reports/gr2.pdf </br>
 #8833 - brent oil - https://ru.investing.com/commodities/brent-oil-historical-data</br>
 #8830 - золото - https://ru.investing.com/commodities/gold-streaming-chart</br>
