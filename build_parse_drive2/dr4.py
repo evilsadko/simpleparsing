@@ -72,6 +72,8 @@ def create_dir(x):
 path = "data"
 
 dirn = os.walk(path)
+#ls = ["bmw","mercedes","audi","opel","landrover","mitsubishi","nissan","subaru","toyota","porsche","ferrari","lamborghini"]
+ls = ["honda", "lada", "tesla","peugeot","acura","alfaromeo","infiniti", "mazda"]
 for U in dirn:
    for P in U[2]:
        fl = [os.path.join(U[0], P)]
@@ -81,38 +83,40 @@ for U in dirn:
        for st in lS:
            htt = "https://www.drive2.ru"+st.split("\n")[0]
            print (htt)
-           dir_save = create_dir(st.split("\n")[0])
-           try:
-                   p_parse = R.get(htt, headers=headers)
-                   soup = BeautifulSoup(p_parse.text)
-                   
-                   car_info = soup.find("span",{"class":"u-break-word"})
-                   car_rate = soup.find("span",{"class":"r-button-unstyled c-round-num-block"})
-                   
-                   car_rate = car_rate.find("strong")
-                   user_info = soup.find("div",{"class":"c-user-card__info"})
-                   user_link = soup.find("a",{"class":"c-link c-link--color00 c-username c-username--wrap"})
-                   print (user_link["href"])#(car_info.text, car_rate.text)#, user_info.text)
-                   
-                   f_inf = open(dir_save+"/info.txt", "w")
-                   f_inf.write(car_info.text+";"+car_rate.text+"\n")
-                   f_inf.write(user_link["href"]+"\n")
-                   f_inf.write(user_info.text+"\n")
-                   f_inf.close()
-                   
-                   cl = soup.find_all('div', {"class": "c-slideshow__hd"})
-                   for K in cl:
-                      Kcl = K.find("img")
-                      print (Kcl["src"], Kcl["src"].split("/")[-1])
-                      response = R.get(Kcl["src"], headers=headers)
-                      print (response)
-                      if response.status_code == 200:
-                          with open(dir_save+"/"+Kcl["src"].split("/")[-1], 'wb') as fli:
-                               fli.write(response.content)
+           
+           if st.split("/")[2] in ls:
+               dir_save = create_dir(st.split("\n")[0])
+               try:
+                       p_parse = R.get(htt, headers=headers)
+                       soup = BeautifulSoup(p_parse.text)
+                       
+                       car_info = soup.find("span",{"class":"u-break-word"})
+                       car_rate = soup.find("span",{"class":"r-button-unstyled c-round-num-block"})
+                       
+                       car_rate = car_rate.find("strong")
+                       user_info = soup.find("div",{"class":"c-user-card__info"})
+                       user_link = soup.find("a",{"class":"c-link c-link--color00 c-username c-username--wrap"})
+                       print (user_link["href"])#(car_info.text, car_rate.text)#, user_info.text)
+                       
+                       f_inf = open(dir_save+"/info.txt", "w")
+                       f_inf.write(car_info.text+";"+car_rate.text+"\n")
+                       f_inf.write(user_link["href"]+"\n")
+                       f_inf.write(user_info.text+"\n")
+                       f_inf.close()
+                       
+                       cl = soup.find_all('div', {"class": "c-slideshow__hd"})
+                       for K in cl:
+                          Kcl = K.find("img")
+                          print (Kcl["src"], Kcl["src"].split("/")[-1])
+                          response = R.get(Kcl["src"], headers=headers)
+                          print (response)
+                          if response.status_code == 200:
+                              with open(dir_save+"/"+Kcl["src"].split("/")[-1], 'wb') as fli:
+                                   fli.write(response.content)
 
-                   SEC = random.choice([2,3,4,5,3,1,1.1,1.5, 0.7])
-                   time.sleep(SEC)
-           except:
-                   pass
+                       SEC = random.choice([2,3,4,5,3,1,1.1,1.5, 0.7])
+                       time.sleep(SEC)
+               except:
+                       pass
 #print (dirn)
                            
